@@ -6,6 +6,8 @@ async function launch(city){if(await health(city))return;if(launches.has(city.id
 const server=http.createServer(async(req,res)=>{try{const u=new URL(req.url,'http://127.0.0.1:8790');if(req.headers.host!=='127.0.0.1:8790'&&req.headers.host!=='localhost:8790')return send(res,403,{error:'仅支持本地访问'});
  if(req.method==='GET'&&u.pathname==='/')return send(res,200,readFileSync(resolve(program,'index.html')),'text/html; charset=utf-8');
  if(req.method==='GET'&&u.pathname==='/naive.css')return send(res,200,readFileSync(resolve(program,'naive.css')),'text/css; charset=utf-8');
+ if(req.method==='GET'&&u.pathname==='/handbook.css')return send(res,200,readFileSync(resolve(program,'handbook.css')),'text/css; charset=utf-8');
+ if(req.method==='GET'&&u.pathname==='/title.woff2')return send(res,200,readFileSync(resolve(program,'title.woff2')),'font/woff2');
  if(req.method==='GET'&&u.pathname==='/api/catalog'){const rows=JSON.parse(readFileSync(resolve(program,'coverage.json'),'utf8'));return send(res,200,rows);}
  if(req.method==='GET'&&u.pathname==='/api/status')return send(res,200,Object.fromEntries(await Promise.all(cities.map(async c=>[c.id,await health(c)]))));
  const parts=u.pathname.split('/');const city=byId.get(parts[2]);

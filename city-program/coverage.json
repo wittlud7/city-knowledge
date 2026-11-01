@@ -165,8 +165,8 @@
     "build": {
       "city": "beijing",
       "ok": true,
-      "seconds": 14,
-      "checkedAt": "2026-11-02T06:46:30+0800"
+      "seconds": 14.8,
+      "checkedAt": "2026-11-02T07:22:34+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -342,8 +342,8 @@
     "build": {
       "city": "tianjin",
       "ok": true,
-      "seconds": 10.4,
-      "checkedAt": "2026-11-02T06:46:27+0800"
+      "seconds": 12.9,
+      "checkedAt": "2026-11-02T07:22:32+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -519,8 +519,8 @@
     "build": {
       "city": "shijiazhuang",
       "ok": true,
-      "seconds": 11.2,
-      "checkedAt": "2026-11-02T06:46:27+0800"
+      "seconds": 12.7,
+      "checkedAt": "2026-11-02T07:22:32+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -696,8 +696,8 @@
     "build": {
       "city": "taiyuan",
       "ok": true,
-      "seconds": 12.3,
-      "checkedAt": "2026-11-02T06:46:39+0800"
+      "seconds": 12.7,
+      "checkedAt": "2026-11-02T07:22:45+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -873,8 +873,8 @@
     "build": {
       "city": "hohhot",
       "ok": true,
-      "seconds": 11.8,
-      "checkedAt": "2026-11-02T06:46:39+0800"
+      "seconds": 12.5,
+      "checkedAt": "2026-11-02T07:22:45+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -1050,8 +1050,8 @@
     "build": {
       "city": "shenyang",
       "ok": true,
-      "seconds": 11,
-      "checkedAt": "2026-11-02T06:46:41+0800"
+      "seconds": 12.2,
+      "checkedAt": "2026-11-02T07:22:46+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -1227,8 +1227,8 @@
     "build": {
       "city": "changchun",
       "ok": true,
-      "seconds": 11.1,
-      "checkedAt": "2026-11-02T06:46:50+0800"
+      "seconds": 11.8,
+      "checkedAt": "2026-11-02T07:22:57+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -1404,8 +1404,8 @@
     "build": {
       "city": "harbin",
       "ok": true,
-      "seconds": 11.1,
-      "checkedAt": "2026-11-02T06:46:50+0800"
+      "seconds": 11.8,
+      "checkedAt": "2026-11-02T07:22:57+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -1581,8 +1581,8 @@
     "build": {
       "city": "shanghai",
       "ok": true,
-      "seconds": 10.7,
-      "checkedAt": "2026-11-02T06:46:52+0800"
+      "seconds": 11.8,
+      "checkedAt": "2026-11-02T07:22:58+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -1758,8 +1758,8 @@
     "build": {
       "city": "nanjing",
       "ok": true,
-      "seconds": 11.1,
-      "checkedAt": "2026-11-02T06:47:01+0800"
+      "seconds": 12.7,
+      "checkedAt": "2026-11-02T07:23:09+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -1935,8 +1935,8 @@
     "build": {
       "city": "hangzhou",
       "ok": true,
-      "seconds": 10.8,
-      "checkedAt": "2026-11-02T06:47:01+0800"
+      "seconds": 12.7,
+      "checkedAt": "2026-11-02T07:23:09+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -2112,8 +2112,8 @@
     "build": {
       "city": "hefei",
       "ok": true,
-      "seconds": 10.6,
-      "checkedAt": "2026-11-02T06:47:02+0800"
+      "seconds": 12.7,
+      "checkedAt": "2026-11-02T07:23:11+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -2289,8 +2289,8 @@
     "build": {
       "city": "fuzhou",
       "ok": true,
-      "seconds": 10.8,
-      "checkedAt": "2026-11-02T06:47:12+0800"
+      "seconds": 12.4,
+      "checkedAt": "2026-11-02T07:23:22+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -2472,8 +2472,8 @@
     "build": {
       "city": "nanchang",
       "ok": true,
-      "seconds": 10.7,
-      "checkedAt": "2026-11-02T06:47:12+0800"
+      "seconds": 12.3,
+      "checkedAt": "2026-11-02T07:23:22+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -2655,8 +2655,8 @@
     "build": {
       "city": "jinan",
       "ok": true,
-      "seconds": 11.3,
-      "checkedAt": "2026-11-02T06:47:14+0800"
+      "seconds": 12.7,
+      "checkedAt": "2026-11-02T07:23:24+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -2832,8 +2832,8 @@
     "build": {
       "city": "zhengzhou",
       "ok": true,
-      "seconds": 10.4,
-      "checkedAt": "2026-11-02T06:47:22+0800"
+      "seconds": 13.4,
+      "checkedAt": "2026-11-02T07:23:35+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -3009,8 +3009,8 @@
     "build": {
       "city": "wuhan",
       "ok": true,
-      "seconds": 10.4,
-      "checkedAt": "2026-11-02T06:47:22+0800"
+      "seconds": 13.3,
+      "checkedAt": "2026-11-02T07:23:35+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -3186,8 +3186,8 @@
     "build": {
       "city": "changsha",
       "ok": true,
-      "seconds": 10.3,
-      "checkedAt": "2026-11-02T06:47:24+0800"
+      "seconds": 13.3,
+      "checkedAt": "2026-11-02T07:23:37+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -3363,8 +3363,8 @@
     "build": {
       "city": "guangzhou",
       "ok": true,
-      "seconds": 11.4,
-      "checkedAt": "2026-11-02T06:47:34+0800"
+      "seconds": 13,
+      "checkedAt": "2026-11-02T07:23:48+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -3540,8 +3540,8 @@
     "build": {
       "city": "nanning",
       "ok": true,
-      "seconds": 11.4,
-      "checkedAt": "2026-11-02T06:47:34+0800"
+      "seconds": 13,
+      "checkedAt": "2026-11-02T07:23:48+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -3717,8 +3717,8 @@
     "build": {
       "city": "haikou",
       "ok": true,
-      "seconds": 11.2,
-      "checkedAt": "2026-11-02T06:47:35+0800"
+      "seconds": 13,
+      "checkedAt": "2026-11-02T07:23:50+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -3894,8 +3894,8 @@
     "build": {
       "city": "chongqing",
       "ok": true,
-      "seconds": 11,
-      "checkedAt": "2026-11-02T06:47:45+0800"
+      "seconds": 13.1,
+      "checkedAt": "2026-11-02T07:24:01+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -4071,8 +4071,8 @@
     "build": {
       "city": "chengdu",
       "ok": true,
-      "seconds": 11,
-      "checkedAt": "2026-11-02T06:47:45+0800"
+      "seconds": 13,
+      "checkedAt": "2026-11-02T07:24:01+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -4248,8 +4248,8 @@
     "build": {
       "city": "guiyang",
       "ok": true,
-      "seconds": 10.6,
-      "checkedAt": "2026-11-02T06:47:46+0800"
+      "seconds": 13,
+      "checkedAt": "2026-11-02T07:24:03+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -4425,8 +4425,8 @@
     "build": {
       "city": "kunming",
       "ok": true,
-      "seconds": 10.9,
-      "checkedAt": "2026-11-02T06:47:56+0800"
+      "seconds": 12.6,
+      "checkedAt": "2026-11-02T07:24:14+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -4602,8 +4602,8 @@
     "build": {
       "city": "lhasa",
       "ok": true,
-      "seconds": 10.8,
-      "checkedAt": "2026-11-02T06:47:55+0800"
+      "seconds": 12.5,
+      "checkedAt": "2026-11-02T07:24:14+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -4785,8 +4785,8 @@
     "build": {
       "city": "xian",
       "ok": true,
-      "seconds": 10.7,
-      "checkedAt": "2026-11-02T06:47:57+0800"
+      "seconds": 12,
+      "checkedAt": "2026-11-02T07:24:15+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -4962,8 +4962,8 @@
     "build": {
       "city": "lanzhou",
       "ok": true,
-      "seconds": 10.8,
-      "checkedAt": "2026-11-02T06:48:06+0800"
+      "seconds": 12,
+      "checkedAt": "2026-11-02T07:24:26+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -5139,8 +5139,8 @@
     "build": {
       "city": "xining",
       "ok": true,
-      "seconds": 10.7,
-      "checkedAt": "2026-11-02T06:48:06+0800"
+      "seconds": 11.9,
+      "checkedAt": "2026-11-02T07:24:26+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -5322,8 +5322,8 @@
     "build": {
       "city": "yinchuan",
       "ok": true,
-      "seconds": 10.8,
-      "checkedAt": "2026-11-02T06:48:07+0800"
+      "seconds": 12.3,
+      "checkedAt": "2026-11-02T07:24:27+0800"
     },
     "nativePublished": false,
     "modelConnected": false,
@@ -5499,8 +5499,8 @@
     "build": {
       "city": "urumqi",
       "ok": true,
-      "seconds": 10.2,
-      "checkedAt": "2026-11-02T06:48:16+0800"
+      "seconds": 11.5,
+      "checkedAt": "2026-11-02T07:24:37+0800"
     },
     "nativePublished": false,
     "modelConnected": false,

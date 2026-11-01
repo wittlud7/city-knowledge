@@ -1,2 +1,3 @@
 @import "./base.wxss";
 @import "./naive.wxss";
+@import "./handbook.wxss";

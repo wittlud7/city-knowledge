@@ -29,5 +29,5 @@ with zipfile.ZipFile(bundle/'city-program-31-delivery.zip','w',zipfile.ZIP_DEFLA
    for entry in source.infolist():z.writestr(c['folder']+'/'+entry.filename,source.read(entry.filename))
   z.write(archive,c['folder']+'/output/'+archive.name)
  for p in program.iterdir():
-  if p.is_file() and p.name!='github-repository.py' and p.suffix in ['.md','.json','.html','.css','.mjs','.py','.cmd']:z.write(p,'city-program/'+p.name)
+  if p.is_file() and p.name!='github-repository.py' and (p.suffix in ['.md','.json','.html','.css','.mjs','.py','.cmd'] or p.name in ['title.woff2','FONT_LICENSE.txt']):z.write(p,'city-program/'+p.name)
 print('PACKAGE_COUNT',len(manifest));print(bundle/'city-program-31-delivery.zip')

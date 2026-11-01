@@ -1,0 +1,18 @@
+/* 手绘城市手册 V2。原生标题保留系统楷体，不要求在线字体。 */
+page{background:#f4eedf;color:#34433c}
+.eyebrow{color:#9e6346;letter-spacing:2rpx}.h1,.h2{color:#40563c;font-family:KaiTi,STKaiti,"Kaiti SC","Songti SC",serif}
+.real-hero{border:0;box-shadow:none;background:transparent;padding:15rpx 0 25rpx;border-radius:0;border-bottom:2rpx dashed #c2b99f}
+.hero-words{padding:0}.hero-words .eyebrow{background:transparent;border:0;padding:0;transform:none;font-size:20rpx;margin-bottom:25rpx;color:#9e6346}
+.real-hero .h1{font-size:65rpx;line-height:1.4;font-weight:700;color:#34433c;margin-bottom:24rpx}.real-hero .accent{color:#b95e43}.real-hero .sub{font-size:24rpx;color:#827d69;line-height:1.9}
+.hero-photo{margin:35rpx 12rpx 15rpx;width:calc(100% - 24rpx);height:365rpx;border:12rpx solid #fffdf5;outline:0;transform:rotate(2deg);box-shadow:2rpx 5rpx 13rpx #5d523b29}
+.photo-credit{color:#938972;font-size:19rpx;padding:4rpx 14rpx 10rpx}.search{border-color:#81896d;box-shadow:3rpx 5rpx 0 #d6ccb3;background:#fffdf7;border-radius:12rpx 6rpx 18rpx 8rpx;margin-top:27rpx}
+.search button{background:#50684c;border-color:#475b40;color:#fffbed}.search input{color:#59654b;font-size:23rpx}
+.h2{font-size:39rpx;font-weight:600;border-bottom:0;border-left:4rpx solid #b68059;padding:0 0 0 18rpx;display:block;margin:45rpx 0 28rpx;line-height:1.5}
+.grid{gap:27rpx 23rpx}.entry{position:relative;min-height:190rpx;padding:25rpx 23rpx;background:#ead7a1;border:2rpx solid #c6b99766;box-shadow:2rpx 5rpx 6rpx #79674219;border-radius:5rpx 13rpx 3rpx 9rpx;transform:rotate(-.7deg)}
+.entry:nth-child(2){background:#dce0be;transform:rotate(.8deg)}.entry:nth-child(3){background:#e6d5c4;transform:rotate(-.6deg)}.entry:nth-child(4){background:#eacbbb;transform:rotate(.5deg)}.entry:nth-child(5){background:#ccd8ce;transform:rotate(-.6deg)}.entry:nth-child(6){background:#e8dfc6;transform:rotate(.9deg)}
+.entry-index{font-size:19rpx;color:#8a896c;font-family:Georgia,serif;font-style:italic;margin-bottom:21rpx;letter-spacing:1rpx}.entry .title{font-family:KaiTi,STKaiti,"Songti SC",serif;color:#46533f;font-size:34rpx;line-height:1.5}.entry .meta{color:#777760;font-size:21rpx;line-height:1.9;margin-top:12rpx}
+.scenario-native{position:relative;background:#fffcf3;border:2rpx solid #c6c2ad;border-radius:0 14rpx 3rpx 8rpx;padding:28rpx 30rpx 32rpx;box-shadow:2rpx 5rpx 7rpx #81725213;margin-top:47rpx}
+.native-file-tab{position:absolute;left:-2rpx;top:-31rpx;background:#d7ddbd;border:2rpx solid #b6bea1;border-bottom:0;border-radius:10rpx 22rpx 0 0;padding:8rpx 21rpx;font-size:20rpx;font-family:KaiTi,STKaiti,"Songti SC",serif;color:#6c7755;letter-spacing:2rpx}
+.scenario-native:nth-child(2n) .native-file-tab{background:#e7d2b5;border-color:#c2b194;color:#8c7153}.scenario-native .title{font-size:39rpx;color:#34433c;font-weight:600;line-height:1.5;margin:12rpx 0 18rpx}.scenario-native .body{font-size:24rpx;line-height:2;color:#8b8574}.scenario-native .meta{font-size:20rpx;color:#a09279}
+.card{background:#fffcf3;border-color:#c6c2ad;box-shadow:1rpx 4rpx 6rpx #81725213}.title{color:#4e5d48}.body{color:#817c6c}.meta,.muted{color:#938a76}.scope-note{background:#efe4c5;color:#8a7959;border-left-color:#b79b64}
+.primary{background:#50684c;border-color:#475b40;color:#fffbed;box-shadow:3rpx 4rpx 0 #929c8055}.secondary{background:#f9f7e9;color:#667b52;border-color:#92a17c;box-shadow:3rpx 4rpx 0 #929c8055}.chip.active,.tabs button.active{background:#e9d79f;border-color:#b1aa7f;color:#626b49}.link{color:#6c7d59}.notice{background:transparent;border:0;border-top:2rpx dashed #c2b99f;color:#9a927d;padding:25rpx 0}.footer{color:#a19780}

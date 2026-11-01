@@ -17,3 +17,5 @@
 可选服务配置：复制 `.env.example` 为本项目的 `.env`，只在本机填写密钥；使用 `node --env-file=.env server/index.mjs` 启动以加载配置。普通 `npm start` 使用当前进程环境，不会自动读取 `.env`。Docker 内部端口为 8818，对外运行时需配置管理员密码。
 
 视觉采用“稚拙城市手册”：奶油纸底、蓝墨、砖红印章、彩色便签和实景照片卡。网页样式见 `src/naive.css`，微信样式见 `miniprogram/naive.wxss`；均为本项目独立文件，不从其他城市加载。
+
+第二版升级为“手绘城市生活观察簿”：网页新增 `src/handbook.css` 和原创矢量组件 `src/handbook-art.jsx`，在原有主题之后加载；标题字体以OFL字形子集保存在 `public/fonts/`。微信新增 `miniprogram/handbook.wxss`，沿用系统标题字体。真实照片、出处和资料边界保留。

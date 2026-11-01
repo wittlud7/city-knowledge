@@ -168,8 +168,8 @@
   "build": {
     "city": "shenyang",
     "ok": true,
-    "seconds": 11,
-    "checkedAt": "2026-11-02T06:46:41+0800"
+    "seconds": 12.2,
+    "checkedAt": "2026-11-02T07:22:46+0800"
   },
   "nativePublished": false,
   "modelConnected": false,

@@ -168,8 +168,8 @@
   "build": {
     "city": "chengdu",
     "ok": true,
-    "seconds": 11,
-    "checkedAt": "2026-11-02T06:47:45+0800"
+    "seconds": 13,
+    "checkedAt": "2026-11-02T07:24:01+0800"
   },
   "nativePublished": false,
   "modelConnected": false,

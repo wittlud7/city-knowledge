@@ -14,14 +14,14 @@
   ],
   "window": {
     "navigationBarTitleText": "城知 · 福州城市指南",
-    "navigationBarBackgroundColor": "#f5f0df",
+    "navigationBarBackgroundColor": "#f4eedf",
     "navigationBarTextStyle": "black",
-    "backgroundColor": "#f5f0df"
+    "backgroundColor": "#f4eedf"
   },
   "tabBar": {
-    "color": "#626b7e",
-    "selectedColor": "#3555ac",
-    "backgroundColor": "#fff9ea",
+    "color": "#92957c",
+    "selectedColor": "#50684c",
+    "backgroundColor": "#f9f5e8",
     "borderStyle": "black",
     "list": [
       {

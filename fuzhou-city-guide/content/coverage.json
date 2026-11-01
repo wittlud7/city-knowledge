@@ -168,8 +168,8 @@
   "build": {
     "city": "fuzhou",
     "ok": true,
-    "seconds": 10.8,
-    "checkedAt": "2026-11-02T06:47:12+0800"
+    "seconds": 12.4,
+    "checkedAt": "2026-11-02T07:23:22+0800"
   },
   "nativePublished": false,
   "modelConnected": false,

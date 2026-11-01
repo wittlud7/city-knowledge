@@ -164,8 +164,8 @@
   "build": {
     "city": "beijing",
     "ok": true,
-    "seconds": 14,
-    "checkedAt": "2026-11-02T06:46:30+0800"
+    "seconds": 14.8,
+    "checkedAt": "2026-11-02T07:22:34+0800"
   },
   "nativePublished": false,
   "modelConnected": false,

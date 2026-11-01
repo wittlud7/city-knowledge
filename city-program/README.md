@@ -12,7 +12,7 @@
 
 验证记录见 `build-results.json` 和 `http-results.json`，详细构建日志在本地 `logs/`。结构检查不是微信编译和真机测试。批量核验：`python build-all.py --verify`；接口核验：`node verify-http.mjs`；刷新目录：`node catalog.mjs`；生成独立源码包：`python package-all.py`。不要把 `data/`、`.env` 或本地管理员密码加入交付包。
 
-2026-11-02已统一改为“稚拙城市手册”视觉：奶油纸底、蓝墨、砖红印章、彩色便签与实景照片卡。网页主题为各城 `src/naive.css`；微信主题为 `miniprogram/naive.wxss`，原基础样式移至 `miniprogram/base.wxss`。修改北京的样式后可执行 `python sync-styles.py`，再逐城构建；详见[稚拙风改版说明](稚拙风改版说明.md)。
+2026-11-02第二版按“手绘城市手册”升级：原创生活小画、纸纤维、手写旁注、章节编号、胶带实景照片与档案夹专题。网页新增 `src/handbook.css` 和 `src/handbook-art.jsx`，微信新增 `miniprogram/handbook.wxss`；网页标题字体以OFL子集在各城独立保存，运行不请求在线字体，微信仍用系统字体。修改北京的样式后可执行 `python sync-styles.py`，再逐城构建；详见[稚拙风改版说明](稚拙风改版说明.md)。
 
 完整交付包为 `output/city-program-31-delivery.zip`。解压后直接得到31个独立城市文件夹和一个 `city-program` 总目录文件夹；每城 `output` 中另有单独源码包。新机器安装 Node.js 24 后，可双击 `city-program/Setup-Cities.cmd`，或在解压根目录执行 `node city-program/setup.mjs`。只准备一城可用 `node city-program/setup.mjs --city shanghai`；这些命令为各城分别安装依赖并构建，随后通过总目录启动所选城市。交付包不含个人数据库、管理员密码或密钥。
 

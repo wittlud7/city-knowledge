@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-02",
+  "theme": "手绘城市生活观察簿",
+  "independentProjects": 31,
+  "browserChecks": [
+    {"city": "tianjin", "viewportWidths": [1440, 390, 320], "horizontalOverflow": false, "localTitleFontLoaded": true, "realHeroPhotoLoaded": true},
+    {"city": "tianjin", "flow": "住房便签进入资料库并选中居住社区", "passed": true},
+    {"city": "tianjin", "flow": "首页专题打开正文和四条来源链接", "passed": true},
+    {"city": "tianjin", "flow": "档案夹页签层级与单篇正文满行布局", "passed": true},
+    {"city": "urumqi", "viewportWidths": [390], "horizontalOverflow": false, "longCityTitleFitsTwoLines": true},
+    {"page": "city-catalog", "viewportWidths": [1440, 390], "cityCards": 31, "horizontalOverflow": false, "localTitleFontLoaded": true}
+  ],
+  "assetChecks": {"independentFontAndLicenseCopies": 31, "builtFontMatchesSource": true},
+  "limitations": ["未逐城进行全部浏览器交互流程测试", "微信仅完成源码结构检查，未进行开发者工具编译和真机验证", "视觉改版没有增加资料研究数量"]
+}

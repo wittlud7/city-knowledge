@@ -174,8 +174,8 @@
   "build": {
     "city": "xian",
     "ok": true,
-    "seconds": 10.7,
-    "checkedAt": "2026-11-02T06:47:57+0800"
+    "seconds": 12,
+    "checkedAt": "2026-11-02T07:24:15+0800"
   },
   "nativePublished": false,
   "modelConnected": false,
