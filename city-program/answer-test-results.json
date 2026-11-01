@@ -1,0 +1,126 @@
+[
+  {
+    "city": "beijing",
+    "ok": true
+  },
+  {
+    "city": "tianjin",
+    "ok": true
+  },
+  {
+    "city": "shijiazhuang",
+    "ok": true
+  },
+  {
+    "city": "taiyuan",
+    "ok": true
+  },
+  {
+    "city": "hohhot",
+    "ok": true
+  },
+  {
+    "city": "shenyang",
+    "ok": true
+  },
+  {
+    "city": "changchun",
+    "ok": true
+  },
+  {
+    "city": "harbin",
+    "ok": true
+  },
+  {
+    "city": "shanghai",
+    "ok": true
+  },
+  {
+    "city": "nanjing",
+    "ok": true
+  },
+  {
+    "city": "hangzhou",
+    "ok": true
+  },
+  {
+    "city": "hefei",
+    "ok": true
+  },
+  {
+    "city": "fuzhou",
+    "ok": true
+  },
+  {
+    "city": "nanchang",
+    "ok": true
+  },
+  {
+    "city": "jinan",
+    "ok": true
+  },
+  {
+    "city": "zhengzhou",
+    "ok": true
+  },
+  {
+    "city": "wuhan",
+    "ok": true
+  },
+  {
+    "city": "changsha",
+    "ok": true
+  },
+  {
+    "city": "guangzhou",
+    "ok": true
+  },
+  {
+    "city": "nanning",
+    "ok": true
+  },
+  {
+    "city": "haikou",
+    "ok": true
+  },
+  {
+    "city": "chongqing",
+    "ok": true
+  },
+  {
+    "city": "chengdu",
+    "ok": true
+  },
+  {
+    "city": "guiyang",
+    "ok": true
+  },
+  {
+    "city": "kunming",
+    "ok": true
+  },
+  {
+    "city": "lhasa",
+    "ok": true
+  },
+  {
+    "city": "xian",
+    "ok": true
+  },
+  {
+    "city": "lanzhou",
+    "ok": true
+  },
+  {
+    "city": "xining",
+    "ok": true
+  },
+  {
+    "city": "yinchuan",
+    "ok": true
+  },
+  {
+    "city": "urumqi",
+    "ok": true
+  }
+]

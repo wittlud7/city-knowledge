@@ -1,0 +1,8 @@
+{
+ "description":"城知 · 济南城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-jinan",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

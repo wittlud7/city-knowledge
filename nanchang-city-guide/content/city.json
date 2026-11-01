@@ -1,0 +1,14 @@
+{
+  "id": "nanchang",
+  "name": "南昌",
+  "province": "江西",
+  "english": "Nanchang",
+  "folder": "nanchang-city-guide",
+  "port": 8813,
+  "lat": 28.682,
+  "lng": 115.8579,
+  "portal": "https://www.nc.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "lhasa",
+  "name": "拉萨",
+  "province": "西藏",
+  "english": "Lhasa",
+  "folder": "lhasa-city-guide",
+  "port": 8825,
+  "lat": 29.652,
+  "lng": 91.1721,
+  "portal": "https://www.lasa.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

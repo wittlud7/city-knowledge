@@ -1,0 +1,111 @@
+{
+  "city": "taiyuan",
+  "checkedAt": "2026-10-31",
+  "publisher": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "policyUrl": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "固定命名机构的一次性离线查询；不是运行时通用搜索；参考坐标不代表入口或当前开放",
+  "places": [
+    {
+      "id": "map-taiyuan-0",
+      "name": "山西省图书馆（长风馆）",
+      "district": "全市",
+      "category": "culture",
+      "lng": 112.5272538,
+      "lat": 37.8093496,
+      "summary": "馆址参考：太原市长风商务区广经路5号。中国图书馆学会2024年研讨会通知分别列出长风馆位于太原市长风商务区广经路5号，文源馆位于迎泽区文源巷1号。同一机构有不同馆区，地图点位、到馆交通和服务范围不能混用。本库选择长风馆对应的公共地图参考点，实际入口与当期开馆安排仍须查馆方。本条不把已结束的研讨会作为当前活动提供。",
+      "tags": [
+        "图书馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "campus-taiyuan",
+      "sourceIds": [
+        "campus-taiyuan",
+        "map-taiyuan-0"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/892698944",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/892698944",
+        "query": "太原 山西省图书馆"
+      },
+      "coordinateNote": "馆区已根据公开资料区分，坐标仍为OpenStreetMap参考位置；实际入口、当期开馆和服务规则另行核实。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "核对文献中的馆区与馆址，并匹配公共地图参考点；不表示当前开放或资格已核验"
+    },
+    {
+      "id": "map-taiyuan-1",
+      "name": "山西博物院",
+      "district": "全市",
+      "category": "culture",
+      "lng": 112.5247009,
+      "lat": 37.864819,
+      "summary": "公共地图记录名：山西博物院。位置描述：山西博物院, 玉门河北沿岸, 兴华街道, 万柏林区, 太原市, 山西省, 030024, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-taiyuan-1",
+      "sourceIds": [
+        "map-taiyuan-1"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/182057463",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/182057463",
+        "query": "太原 山西博物院"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    }
+  ],
+  "unmatched": [
+    "山西省科学技术馆"
+  ],
+  "campusVerification": {
+    "source": {
+      "id": "campus-taiyuan",
+      "title": "山西省图书馆：分清长风馆与文源馆",
+      "publisher": "中国图书馆学会阅读推广委员会",
+      "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/1777168449631191040.html",
+      "type": "institution",
+      "status": "reviewed",
+      "checkedAt": "2026-10-31",
+      "refreshDays": 30,
+      "documentRead": true,
+      "publishedAt": "2024-04-08",
+      "scope": "2024年会议通知中的馆址参考；不是当前会议报名、借阅或开馆指南",
+      "scopeLevel": "local",
+      "cityId": "taiyuan",
+      "readMethod": "已打开并读取馆区说明，仅采用原文支持的事实，未以历史资料承诺当前开放"
+    },
+    "selectedPlace": "map-taiyuan-0",
+    "address": "太原市长风商务区广经路5号"
+  }
+}

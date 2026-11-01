@@ -1,0 +1,8 @@
+{
+ "description":"城知 · 上海城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-shanghai",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

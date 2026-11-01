@@ -1,0 +1,21 @@
+{
+  "city": "zhengzhou",
+  "dataYear": 2025,
+  "sourceId": "doc-local-zhengzhou",
+  "url": "https://tjj.zhengzhou.gov.cn/tjgb/10017864.jhtml",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业14.17万人。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆14个、备案博物馆59个。"
+    },
+    {
+      "category": "health",
+      "text": "年末医疗卫生机构6653个，其中医院281个；社区卫生服务中心（站）317个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

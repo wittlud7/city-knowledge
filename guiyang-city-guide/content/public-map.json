@@ -1,0 +1,147 @@
+{
+  "city": "guiyang",
+  "checkedAt": "2026-10-31",
+  "publisher": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "policyUrl": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "固定命名机构的一次性离线查询；不是运行时通用搜索；参考坐标不代表入口或当前开放",
+  "places": [
+    {
+      "id": "map-guiyang-0",
+      "name": "贵州省图书馆（北馆）",
+      "district": "全市",
+      "category": "culture",
+      "lng": 106.640615,
+      "lat": 26.651269,
+      "summary": "馆址参考：贵阳市观山湖区林城东路。中国全民阅读网介绍，贵州省图书馆北馆位于贵阳市观山湖区林城东路，2021年投入使用，设有阅读、数字体验和音乐视听等空间；北京路馆作为南馆保留。两馆并非同一地点。本库将北馆作为这一参考点的馆区，另在正文保留南馆区别；当前服务、开放和入馆办法仍须查馆方公告。",
+      "tags": [
+        "图书馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "campus-guiyang",
+      "sourceIds": [
+        "campus-guiyang",
+        "map-guiyang-0"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/1053076260",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/1053076260",
+        "query": "贵阳 贵州省图书馆"
+      },
+      "coordinateNote": "馆区已根据公开资料区分，坐标仍为OpenStreetMap参考位置；实际入口、当期开馆和服务规则另行核实。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "核对文献中的馆区与馆址，并匹配公共地图参考点；不表示当前开放或资格已核验"
+    },
+    {
+      "id": "map-guiyang-1",
+      "name": "贵州省博物馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 106.6390516,
+      "lat": 26.6512129,
+      "summary": "公共地图记录名：贵州省博物馆。位置描述：贵州省博物馆, 107, 林城东路, 长岭街道, 观山湖区, 贵阳市, 贵州省, 550081, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-guiyang-1",
+      "sourceIds": [
+        "map-guiyang-1"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/671094641",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/671094641",
+        "query": "贵阳 贵州省博物馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    },
+    {
+      "id": "map-guiyang-2",
+      "name": "贵州省科学技术馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 106.7015008,
+      "lat": 26.5767641,
+      "summary": "公共地图记录名：贵州省科学技术馆。位置描述：贵州省科学技术馆, 瑞金南路, 河滨街道, 南明区, 贵阳市, 贵州省, 550003, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "科普"
+      ],
+      "sourceId": "map-guiyang-2",
+      "sourceIds": [
+        "map-guiyang-2"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/1290810806",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/1290810806",
+        "query": "贵阳 贵州科技馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    }
+  ],
+  "unmatched": [],
+  "campusVerification": {
+    "source": {
+      "id": "campus-guiyang",
+      "title": "贵州省图书馆：北馆与北京路南馆的区别",
+      "publisher": "中国全民阅读网",
+      "url": "https://www.nationalreading.gov.cn/ydkj/dmsg/202203/t20220327_104678_m.html",
+      "type": "institution",
+      "status": "reviewed",
+      "checkedAt": "2026-10-31",
+      "refreshDays": 30,
+      "documentRead": true,
+      "publishedAt": null,
+      "scope": "机构历史和馆址介绍；现行服务与具体入口另行核实",
+      "scopeLevel": "local",
+      "cityId": "guiyang",
+      "readMethod": "已打开并读取馆区说明，仅采用原文支持的事实，未以历史资料承诺当前开放"
+    },
+    "selectedPlace": "map-guiyang-0",
+    "address": "贵阳市观山湖区林城东路"
+  }
+}

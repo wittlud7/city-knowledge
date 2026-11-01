@@ -1,0 +1,14 @@
+{
+  "id": "nanjing",
+  "name": "南京",
+  "province": "江苏",
+  "english": "Nanjing",
+  "folder": "nanjing-city-guide",
+  "port": 8809,
+  "lat": 32.0603,
+  "lng": 118.7969,
+  "portal": "https://www.nanjing.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

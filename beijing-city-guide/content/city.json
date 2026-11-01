@@ -1,0 +1,13 @@
+{
+  "id": "beijing",
+  "name": "北京",
+  "province": "北京",
+  "english": "Beijing",
+  "brand": "京知",
+  "port": 8787,
+  "lat": 39.9042,
+  "lng": 116.4074,
+  "portal": "https://www.beijing.gov.cn/",
+  "scope": "中国大陆省级行政中心样板",
+  "version": "0.3.0"
+}

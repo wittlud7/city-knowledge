@@ -1,0 +1,14 @@
+{
+  "id": "guiyang",
+  "name": "贵阳",
+  "province": "贵州",
+  "english": "Guiyang",
+  "folder": "guiyang-city-guide",
+  "port": 8823,
+  "lat": 26.647,
+  "lng": 106.6302,
+  "portal": "https://www.guiyang.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

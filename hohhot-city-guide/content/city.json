@@ -1,0 +1,14 @@
+{
+  "id": "hohhot",
+  "name": "呼和浩特",
+  "province": "内蒙古",
+  "english": "Hohhot",
+  "folder": "hohhot-city-guide",
+  "port": 8804,
+  "lat": 40.8426,
+  "lng": 111.7492,
+  "portal": "https://www.huhhot.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

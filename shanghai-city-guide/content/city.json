@@ -1,0 +1,14 @@
+{
+  "id": "shanghai",
+  "name": "上海",
+  "province": "上海",
+  "english": "Shanghai",
+  "folder": "shanghai-city-guide",
+  "port": 8808,
+  "lat": 31.2304,
+  "lng": 121.4737,
+  "portal": "https://www.shanghai.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

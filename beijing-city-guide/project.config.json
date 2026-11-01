@@ -1,0 +1,8 @@
+{
+ "description":"京知 · 北京城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-beijing",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

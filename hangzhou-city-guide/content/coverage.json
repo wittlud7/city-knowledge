@@ -1,0 +1,177 @@
+{
+  "id": "hangzhou",
+  "name": "杭州",
+  "province": "浙江",
+  "english": "Hangzhou",
+  "folder": "hangzhou-city-guide",
+  "port": 8810,
+  "lat": 30.2741,
+  "lng": 120.1551,
+  "portal": "https://www.hangzhou.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+  "stage": "各城可运行首版，持续补充",
+  "localDocuments": 2,
+  "nationalDocuments": 6,
+  "syntheses": 3,
+  "photos": 1,
+  "photo": {
+    "id": "cbd",
+    "file": "20201012从钱塘江江面上空观看钱江新城 2.jpg",
+    "local": "hangzhou.jpg",
+    "caption": "杭州钱江新城",
+    "author": "MasaneMiyaPA",
+    "date": "2020-10-12",
+    "width": 960,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:20201012%E4%BB%8E%E9%92%B1%E5%A1%98%E6%B1%9F%E6%B1%9F%E9%9D%A2%E4%B8%8A%E7%A9%BA%E8%A7%82%E7%9C%8B%E9%92%B1%E6%B1%9F%E6%96%B0%E5%9F%8E_2.jpg"
+  },
+  "places": 1,
+  "locatedPlaces": 1,
+  "publicMapRecords": 1,
+  "statisticalFacts": 5,
+  "districtProfiles": 0,
+  "sources": 11,
+  "sourceReadGaps": [],
+  "domains": [
+    {
+      "id": "overview",
+      "name": "城市概览",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "history",
+      "name": "历史文化",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "transport",
+      "name": "交通出行",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "culture",
+      "name": "公共文化",
+      "localArticles": 2,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "park",
+      "name": "公园运动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "travel",
+      "name": "景区游览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "event",
+      "name": "展览活动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "food",
+      "name": "饮食物产",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "housing",
+      "name": "居住社区",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "career",
+      "name": "就业人才",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "education",
+      "name": "教育家庭",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 1,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "health",
+      "name": "医疗服务",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "service",
+      "name": "日常办事",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "industry",
+      "name": "产业园区",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "accessibility",
+      "name": "无障碍服务",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "international",
+      "name": "国际服务",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    }
+  ],
+  "build": {
+    "city": "hangzhou",
+    "ok": true,
+    "seconds": 10.8,
+    "checkedAt": "2026-11-02T06:47:01+0800"
+  },
+  "nativePublished": false,
+  "modelConnected": false,
+  "updatedAt": "2026-10-31"
+}

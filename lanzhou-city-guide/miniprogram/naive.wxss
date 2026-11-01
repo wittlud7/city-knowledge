@@ -1,0 +1,33 @@
+/* 稚拙城市手册：使用微信支持的原生布局，不依赖在线字体。 */
+page{background:#f5f0df;color:#273e72;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+button{border:2rpx solid #273e72;border-radius:7rpx 14rpx 6rpx 10rpx;background:#fffdf5;color:#3555ac;box-shadow:4rpx 4rpx 0 #c3bca2}
+button[disabled]{box-shadow:none;opacity:.5}
+.page{padding-top:34rpx}.eyebrow{color:#b94e32;font-size:20rpx;letter-spacing:2rpx}
+.h1,.h2{font-family:KaiTi,STKaiti,"Kaiti SC","Songti SC",serif;color:#3555ac;font-weight:700}
+.h1{font-size:56rpx}.h2{font-size:39rpx;border-bottom:5rpx solid #f5df91;display:table;padding-bottom:5rpx;margin:40rpx 0 25rpx}
+.sub{color:#62677a;font-size:25rpx}.meta,.muted{color:#6c6c72;font-size:22rpx;line-height:1.9}
+.primary{background:#3555ac;border-color:#273e72;color:#fffdf5}.secondary{background:#fffdf5;border-color:#858ba0;color:#3555ac}
+.panel,.card,.chat-card{background:#fffdf5;border:2rpx solid #9297a1;border-radius:8rpx 15rpx 6rpx 11rpx;box-shadow:4rpx 4rpx 0 #d2cab3;margin-bottom:24rpx}
+.title{color:#273e72;font-size:29rpx}.body{color:#566175;font-size:25rpx;line-height:2}
+.real-hero{min-height:0;padding:30rpx 30rpx 22rpx;background:#fffdf5;border:3rpx solid #273e72;border-radius:10rpx 20rpx 9rpx 15rpx;box-shadow:7rpx 7rpx 0 #c9c4ac;overflow:visible;display:flex;flex-direction:column}
+.hero-words{order:1;padding-bottom:20rpx}.hero-words .eyebrow{display:inline-block;border:2rpx solid #b94e32;padding:6rpx 11rpx;background:#fff2de;transform:rotate(-2deg);margin-bottom:28rpx}
+.real-hero .h1{font-size:58rpx;line-height:1.4;margin-bottom:24rpx}.real-hero .accent{color:#b94e32}.real-hero .sub{color:#62677a;font-size:24rpx;line-height:1.85}
+.hero-photo{position:relative;order:2;inset:auto;width:100%;height:335rpx;border:8rpx solid #fffdf5;box-sizing:border-box;outline:2rpx solid #273e72;transform:rotate(1.2deg);box-shadow:4rpx 5rpx 0 #c9c4ac;margin:14rpx 0}
+.hero-wash{display:none}.photo-credit{position:relative;order:3;bottom:auto;right:auto;color:#5c6576;font-size:19rpx;text-align:left;line-height:1.8;padding-top:8rpx}
+.search{margin-top:30rpx;border:2rpx solid #273e72;box-shadow:4rpx 4rpx 0 #f5df91;background:#fffdf5;border-radius:8rpx 14rpx 6rpx 10rpx;padding:15rpx 18rpx}
+.search input{font-size:24rpx;color:#273e72}.search button{background:#3555ac;color:#fffdf5;padding:10rpx 17rpx;box-shadow:none}
+.grid{gap:22rpx}.entry{padding:27rpx 21rpx;background:#f5df91;border:2rpx solid #273e72;border-radius:8rpx 16rpx 7rpx 12rpx;box-shadow:4rpx 4rpx 0 #b9b29a;min-height:155rpx}
+.entry:nth-child(2){background:#e4e9cb}.entry:nth-child(3){background:#e0e8ef}.entry:nth-child(4){background:#f0d7cc}.entry:nth-child(5){background:#e8dfee}.entry:nth-child(6){background:#f3e7bd}
+.entry .title{font-size:29rpx;color:#273e72}.entry .meta{font-size:22rpx;color:#596070;margin-top:15rpx}
+.scenario-native{padding:16rpx 22rpx 25rpx}.scenario-image{border:2rpx solid #c5bfaa;border-radius:3rpx;height:300rpx}
+.scenario-native .title{font-family:KaiTi,STKaiti,"Songti SC",serif;font-size:37rpx;line-height:1.6;margin:17rpx 0}
+.scope-note,.warning{border-left:5rpx solid #b28743;background:#f5e6c1;color:#766035;border-radius:3rpx;font-size:23rpx;line-height:1.9}
+.notice{border:2rpx dashed #9d9781;background:#ede8d6;color:#626658;border-radius:6rpx;font-size:22rpx}
+.chip{color:#596278;background:#eee8d5;border-radius:6rpx}.chip.active,.tabs button.active{background:#f5df91;border:2rpx solid #273e72;color:#273e72}
+.tabs button{box-shadow:none}.field,textarea{background:#fffdf5;border:2rpx solid #8d93a4;color:#273e72;border-radius:7rpx}
+.source{border:2rpx dashed #83906c;background:#e7ebd5;border-radius:6rpx}.source .title{color:#42573d}.source .meta{color:#58634e}
+.tag{background:#eee9d7;color:#4d5e78;border-radius:4rpx}.link{color:#3555ac;border:0;box-shadow:none;background:transparent}
+.empty{background:#f1ecd9;color:#666c75;border:2rpx dashed #8d9295;border-radius:9rpx}
+.chat-question{background:#f5df91;border:2rpx solid #273e72;color:#273e72;border-radius:8rpx 13rpx 6rpx 11rpx}
+.citation{color:#3555ac;border-top:2rpx dashed #b3b29c}.stat{background:#fffdf5;border:2rpx solid #aaa796;border-radius:7rpx}.stat .num{color:#3555ac}
+.check-row{color:#556078}.check-box{border-color:#3555ac}.checked .check-box{background:#3555ac}.footer{color:#696d70;font-size:20rpx}

@@ -1,0 +1,173 @@
+{
+  "id": "beijing",
+  "name": "北京",
+  "province": "北京",
+  "english": "Beijing",
+  "folder": "beijing-city-guide",
+  "port": 8787,
+  "lat": 39.9042,
+  "lng": 116.4074,
+  "portal": "https://www.beijing.gov.cn/",
+  "stage": "北京重点样板，持续补充",
+  "localDocuments": 15,
+  "nationalDocuments": 6,
+  "syntheses": 6,
+  "photos": 5,
+  "photo": {
+    "id": "cbd",
+    "file": "Beijing_CBD_Skyline_(20190104160952).jpg",
+    "local": "beijing-cbd.jpg",
+    "caption": "北京商务中心区",
+    "author": "N509FZ",
+    "date": "2019-01-04",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg"
+  },
+  "places": 24,
+  "locatedPlaces": 24,
+  "publicMapRecords": 0,
+  "statisticalFacts": 0,
+  "districtProfiles": 16,
+  "sources": 42,
+  "sourceReadGaps": [],
+  "domains": [
+    {
+      "id": "overview",
+      "name": "城市概览",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "history",
+      "name": "历史文化",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "transport",
+      "name": "交通出行",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "culture",
+      "name": "公共文化",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "park",
+      "name": "公园运动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "travel",
+      "name": "景区游览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "event",
+      "name": "展览活动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "food",
+      "name": "饮食物产",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "housing",
+      "name": "居住社区",
+      "localArticles": 3,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "career",
+      "name": "就业人才",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "education",
+      "name": "教育家庭",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 1,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "health",
+      "name": "医疗服务",
+      "localArticles": 2,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "service",
+      "name": "日常办事",
+      "localArticles": 2,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "industry",
+      "name": "产业园区",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "accessibility",
+      "name": "无障碍服务",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "international",
+      "name": "国际服务",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    }
+  ],
+  "build": {
+    "city": "beijing",
+    "ok": true,
+    "seconds": 14,
+    "checkedAt": "2026-11-02T06:46:30+0800"
+  },
+  "nativePublished": false,
+  "modelConnected": false,
+  "updatedAt": "2026-10-31"
+}

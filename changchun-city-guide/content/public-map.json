@@ -1,0 +1,126 @@
+{
+  "city": "changchun",
+  "checkedAt": "2026-10-31",
+  "publisher": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "policyUrl": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "固定命名机构的一次性离线查询；不是运行时通用搜索；参考坐标不代表入口或当前开放",
+  "places": [
+    {
+      "id": "map-changchun-0",
+      "name": "吉林省图书馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 125.3171749,
+      "lat": 43.8166375,
+      "summary": "公共地图记录名：吉林省图书馆。位置描述：吉林省图书馆, 10055, 人民大街, 明珠, 明珠街道, 南关区, 长春市, 南关区, 吉林省, 130000, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "图书馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-changchun-0",
+      "sourceIds": [
+        "map-changchun-0"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/304178708",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/304178708",
+        "query": "长春 吉林省图书馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    },
+    {
+      "id": "map-changchun-1",
+      "name": "吉林省博物院",
+      "district": "全市",
+      "category": "culture",
+      "lng": 125.4259965,
+      "lat": 43.7659938,
+      "summary": "公共地图记录名：吉林省博物院。位置描述：吉林省博物院, 永顺路, 永兴街道, 长春净月高新技术产业开发区, 南关区, 长春市, 南关区, 吉林省, 130000, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-changchun-1",
+      "sourceIds": [
+        "map-changchun-1"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/235016362",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/235016362",
+        "query": "长春 吉林省博物院"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    },
+    {
+      "id": "map-changchun-2",
+      "name": "吉林省科学技术馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 125.4266353,
+      "lat": 43.7650828,
+      "summary": "公共地图记录名：吉林省科学技术馆。位置描述：吉林省科学技术馆, 永顺路, 永兴街道, 长春净月高新技术产业开发区, 南关区, 长春市, 南关区, 吉林省, 130000, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "科普"
+      ],
+      "sourceId": "map-changchun-2",
+      "sourceIds": [
+        "map-changchun-2"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/235016360",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/235016360",
+        "query": "长春 吉林省科学技术馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    }
+  ],
+  "unmatched": []
+}

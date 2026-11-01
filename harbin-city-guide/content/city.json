@@ -1,0 +1,14 @@
+{
+  "id": "harbin",
+  "name": "哈尔滨",
+  "province": "黑龙江",
+  "english": "Harbin",
+  "folder": "harbin-city-guide",
+  "port": 8807,
+  "lat": 45.8038,
+  "lng": 126.5349,
+  "portal": "https://www.harbin.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

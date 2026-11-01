@@ -1,0 +1,14 @@
+{
+  "id": "xian",
+  "name": "西安",
+  "province": "陕西",
+  "english": "Xi'an",
+  "folder": "xian-city-guide",
+  "port": 8826,
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "portal": "https://www.xa.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "lanzhou",
+  "name": "兰州",
+  "province": "甘肃",
+  "english": "Lanzhou",
+  "folder": "lanzhou-city-guide",
+  "port": 8827,
+  "lat": 36.0611,
+  "lng": 103.8343,
+  "portal": "https://www.lanzhou.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

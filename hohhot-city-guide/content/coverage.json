@@ -1,0 +1,177 @@
+{
+  "id": "hohhot",
+  "name": "呼和浩特",
+  "province": "内蒙古",
+  "english": "Hohhot",
+  "folder": "hohhot-city-guide",
+  "port": 8804,
+  "lat": 40.8426,
+  "lng": 111.7492,
+  "portal": "https://www.huhhot.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+  "stage": "各城可运行首版，持续补充",
+  "localDocuments": 1,
+  "nationalDocuments": 6,
+  "syntheses": 3,
+  "photos": 1,
+  "photo": {
+    "id": "cbd",
+    "file": "Hohhot aerial 3.jpg",
+    "local": "hohhot.jpg",
+    "caption": "呼和浩特俯瞰",
+    "author": "Andrzej Otrębski",
+    "date": "2023-09-18",
+    "width": 960,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Hohhot_aerial_3.jpg"
+  },
+  "places": 3,
+  "locatedPlaces": 3,
+  "publicMapRecords": 3,
+  "statisticalFacts": 5,
+  "districtProfiles": 0,
+  "sources": 12,
+  "sourceReadGaps": [],
+  "domains": [
+    {
+      "id": "overview",
+      "name": "城市概览",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "history",
+      "name": "历史文化",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "transport",
+      "name": "交通出行",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "culture",
+      "name": "公共文化",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "park",
+      "name": "公园运动",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "travel",
+      "name": "景区游览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "event",
+      "name": "展览活动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "food",
+      "name": "饮食物产",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "housing",
+      "name": "居住社区",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "career",
+      "name": "就业人才",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "education",
+      "name": "教育家庭",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 1,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "health",
+      "name": "医疗服务",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "本地统计背景已读，办理细则待补"
+    },
+    {
+      "id": "service",
+      "name": "日常办事",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "industry",
+      "name": "产业园区",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "accessibility",
+      "name": "无障碍服务",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "international",
+      "name": "国际服务",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    }
+  ],
+  "build": {
+    "city": "hohhot",
+    "ok": true,
+    "seconds": 11.8,
+    "checkedAt": "2026-11-02T06:46:39+0800"
+  },
+  "nativePublished": false,
+  "modelConnected": false,
+  "updatedAt": "2026-10-31"
+}

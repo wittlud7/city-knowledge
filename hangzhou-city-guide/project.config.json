@@ -1,0 +1,8 @@
+{
+ "description":"城知 · 杭州城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-hangzhou",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

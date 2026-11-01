@@ -1,0 +1,13 @@
+{
+  "city": "lhasa",
+  "dataYear": 2025,
+  "sourceId": "doc-local-lhasa",
+  "url": "https://tjj.lasa.gov.cn/tjj/tjgb/202605/f7890507561b4eecb1d299c01cc74cab.shtml",
+  "sections": [
+    {
+      "category": "health",
+      "text": "2025年末卫生机构937个，其中医院38个；基层卫生医疗机构886个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

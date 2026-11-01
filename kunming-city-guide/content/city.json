@@ -1,0 +1,14 @@
+{
+  "id": "kunming",
+  "name": "昆明",
+  "province": "云南",
+  "english": "Kunming",
+  "folder": "kunming-city-guide",
+  "port": 8824,
+  "lat": 25.0389,
+  "lng": 102.7183,
+  "portal": "https://www.km.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

@@ -1,0 +1,21 @@
+{
+  "city": "urumqi",
+  "dataYear": 2025,
+  "sourceId": "doc-local-urumqi",
+  "url": "https://www.wlmq.gov.cn/wlmqs/c119359/202604/6070ed21632343cca95db20395862469.shtml",
+  "sections": [
+    {
+      "category": "education",
+      "text": "2025年末普通高等学校24所。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆10个、文化馆10个；博物馆2个为本公报所列口径。"
+    },
+    {
+      "category": "health",
+      "text": "年末各级各类医疗卫生机构2068个，其中医院115个、社区卫生服务中心（站）447个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

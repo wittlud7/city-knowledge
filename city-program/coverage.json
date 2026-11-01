@@ -1,0 +1,5509 @@
+[
+  {
+    "id": "beijing",
+    "name": "北京",
+    "province": "北京",
+    "english": "Beijing",
+    "folder": "beijing-city-guide",
+    "port": 8787,
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "portal": "https://www.beijing.gov.cn/",
+    "stage": "北京重点样板，持续补充",
+    "localDocuments": 15,
+    "nationalDocuments": 6,
+    "syntheses": 6,
+    "photos": 5,
+    "photo": {
+      "id": "cbd",
+      "file": "Beijing_CBD_Skyline_(20190104160952).jpg",
+      "local": "beijing-cbd.jpg",
+      "caption": "北京商务中心区",
+      "author": "N509FZ",
+      "date": "2019-01-04",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg"
+    },
+    "places": 24,
+    "locatedPlaces": 24,
+    "publicMapRecords": 0,
+    "statisticalFacts": 0,
+    "districtProfiles": 16,
+    "sources": 42,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 3,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 2,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 2,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      }
+    ],
+    "build": {
+      "city": "beijing",
+      "ok": true,
+      "seconds": 14,
+      "checkedAt": "2026-11-02T06:46:30+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "tianjin",
+    "name": "天津",
+    "province": "天津",
+    "english": "Tianjin",
+    "folder": "tianjin-city-guide",
+    "port": 8801,
+    "lat": 39.0842,
+    "lng": 117.2008,
+    "portal": "https://www.tj.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Tianjin, China.jpg",
+      "local": "tianjin.jpg",
+      "caption": "天津城市景观",
+      "author": "钉钉",
+      "date": "2012-09-16",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Tianjin%2C_China.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 4,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "tianjin",
+      "ok": true,
+      "seconds": 10.4,
+      "checkedAt": "2026-11-02T06:46:27+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "shijiazhuang",
+    "name": "石家庄",
+    "province": "河北",
+    "english": "Shijiazhuang",
+    "folder": "shijiazhuang-city-guide",
+    "port": 8802,
+    "lat": 38.0428,
+    "lng": 114.5149,
+    "portal": "https://www.sjz.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Shijiazhuang city centre.jpg",
+      "local": "shijiazhuang.jpg",
+      "caption": "石家庄中心城区",
+      "author": "Khalidshou at English Wikipedia",
+      "date": "2009",
+      "width": 960,
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Shijiazhuang_city_centre.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 5,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "shijiazhuang",
+      "ok": true,
+      "seconds": 11.2,
+      "checkedAt": "2026-11-02T06:46:27+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "taiyuan",
+    "name": "太原",
+    "province": "山西",
+    "english": "Taiyuan",
+    "folder": "taiyuan-city-guide",
+    "port": 8803,
+    "lat": 37.8706,
+    "lng": 112.5489,
+    "portal": "https://www.taiyuan.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 2,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Skyline of Taiyuan, Oct 1 2023.png",
+      "local": "taiyuan.png",
+      "caption": "太原城市天际线",
+      "author": "A Chinese ID",
+      "date": "2023-10-01",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Taiyuan%2C_Oct_1_2023.png"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "taiyuan",
+      "ok": true,
+      "seconds": 12.3,
+      "checkedAt": "2026-11-02T06:46:39+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "hohhot",
+    "name": "呼和浩特",
+    "province": "内蒙古",
+    "english": "Hohhot",
+    "folder": "hohhot-city-guide",
+    "port": 8804,
+    "lat": 40.8426,
+    "lng": 111.7492,
+    "portal": "https://www.huhhot.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Hohhot aerial 3.jpg",
+      "local": "hohhot.jpg",
+      "caption": "呼和浩特俯瞰",
+      "author": "Andrzej Otrębski",
+      "date": "2023-09-18",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Hohhot_aerial_3.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 5,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "hohhot",
+      "ok": true,
+      "seconds": 11.8,
+      "checkedAt": "2026-11-02T06:46:39+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "shenyang",
+    "name": "沈阳",
+    "province": "辽宁",
+    "english": "Shenyang",
+    "folder": "shenyang-city-guide",
+    "port": 8805,
+    "lat": 41.8057,
+    "lng": 123.4315,
+    "portal": "https://www.shenyang.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 2,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "沈阳市府广场.jpg",
+      "local": "shenyang.jpg",
+      "caption": "沈阳市府广场",
+      "author": "E2568",
+      "date": "2024-10-01",
+      "width": 960,
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E5%B8%82%E5%BA%9C%E5%B9%BF%E5%9C%BA.jpg"
+    },
+    "places": 4,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 13,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 2,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "shenyang",
+      "ok": true,
+      "seconds": 11,
+      "checkedAt": "2026-11-02T06:46:41+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "changchun",
+    "name": "长春",
+    "province": "吉林",
+    "english": "Changchun",
+    "folder": "changchun-city-guide",
+    "port": 8806,
+    "lat": 43.8171,
+    "lng": 125.3235,
+    "portal": "https://www.changchun.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Changchun 1.jpg",
+      "local": "changchun.jpg",
+      "caption": "长春城市街景",
+      "author": "호고호",
+      "date": "2026-09-24",
+      "width": 960,
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Changchun_1.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 3,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "changchun",
+      "ok": true,
+      "seconds": 11.1,
+      "checkedAt": "2026-11-02T06:46:50+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "harbin",
+    "name": "哈尔滨",
+    "province": "黑龙江",
+    "english": "Harbin",
+    "folder": "harbin-city-guide",
+    "port": 8807,
+    "lat": 45.8038,
+    "lng": 126.5349,
+    "portal": "https://www.harbin.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Harbin city center 06.01.2026.jpg",
+      "local": "harbin.jpg",
+      "caption": "哈尔滨中心城区",
+      "author": "SmallSonMarex",
+      "date": "2026-01-06",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Harbin_city_center_06.01.2026.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "harbin",
+      "ok": true,
+      "seconds": 11.1,
+      "checkedAt": "2026-11-02T06:46:50+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "shanghai",
+    "name": "上海",
+    "province": "上海",
+    "english": "Shanghai",
+    "folder": "shanghai-city-guide",
+    "port": 8808,
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "portal": "https://www.shanghai.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Shanghai, China skyline.jpg",
+      "local": "shanghai.jpg",
+      "caption": "上海陆家嘴天际线",
+      "author": "Quintin Soloviev",
+      "date": "2024-04-07",
+      "width": 960,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Shanghai%2C_China_skyline.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 6,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "shanghai",
+      "ok": true,
+      "seconds": 10.7,
+      "checkedAt": "2026-11-02T06:46:52+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "nanjing",
+    "name": "南京",
+    "province": "江苏",
+    "english": "Nanjing",
+    "folder": "nanjing-city-guide",
+    "port": 8809,
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "portal": "https://www.nanjing.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Skyline in Nanjing (20250325).jpg",
+      "local": "nanjing.jpg",
+      "caption": "南京城市天际线",
+      "author": "Fumikas Sagisavas",
+      "date": "2025-03-25",
+      "width": 960,
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Skyline_in_Nanjing_%2820250325%29.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 4,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "nanjing",
+      "ok": true,
+      "seconds": 11.1,
+      "checkedAt": "2026-11-02T06:47:01+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "hangzhou",
+    "name": "杭州",
+    "province": "浙江",
+    "english": "Hangzhou",
+    "folder": "hangzhou-city-guide",
+    "port": 8810,
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "portal": "https://www.hangzhou.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 2,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "20201012从钱塘江江面上空观看钱江新城 2.jpg",
+      "local": "hangzhou.jpg",
+      "caption": "杭州钱江新城",
+      "author": "MasaneMiyaPA",
+      "date": "2020-10-12",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:20201012%E4%BB%8E%E9%92%B1%E5%A1%98%E6%B1%9F%E6%B1%9F%E9%9D%A2%E4%B8%8A%E7%A9%BA%E8%A7%82%E7%9C%8B%E9%92%B1%E6%B1%9F%E6%96%B0%E5%9F%8E_2.jpg"
+    },
+    "places": 1,
+    "locatedPlaces": 1,
+    "publicMapRecords": 1,
+    "statisticalFacts": 5,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 2,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "hangzhou",
+      "ok": true,
+      "seconds": 10.8,
+      "checkedAt": "2026-11-02T06:47:01+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "hefei",
+    "name": "合肥",
+    "province": "安徽",
+    "english": "Hefei",
+    "folder": "hefei-city-guide",
+    "port": 8811,
+    "lat": 31.8206,
+    "lng": 117.2272,
+    "portal": "https://www.hefei.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Hefei downtown.jpg",
+      "local": "hefei.jpg",
+      "caption": "合肥四牌楼历史影像",
+      "author": "Nat Krause",
+      "date": "2005-08-12",
+      "width": 960,
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Hefei_downtown.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "hefei",
+      "ok": true,
+      "seconds": 10.6,
+      "checkedAt": "2026-11-02T06:47:02+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "fuzhou",
+    "name": "福州",
+    "province": "福建",
+    "english": "Fuzhou",
+    "folder": "fuzhou-city-guide",
+    "port": 8812,
+    "lat": 26.0745,
+    "lng": 119.2965,
+    "portal": "https://www.fuzhou.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Fuzhou Cityscape.jpg",
+      "local": "fuzhou.jpg",
+      "caption": "福州城市景观",
+      "author": "Listwiseafford",
+      "date": "2016-03-27",
+      "width": 330,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Fuzhou_Cityscape.jpg"
+    },
+    "places": 1,
+    "locatedPlaces": 1,
+    "publicMapRecords": 1,
+    "statisticalFacts": 3,
+    "districtProfiles": 0,
+    "sources": 10,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "fuzhou",
+      "ok": true,
+      "seconds": 10.8,
+      "checkedAt": "2026-11-02T06:47:12+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "nanchang",
+    "name": "南昌",
+    "province": "江西",
+    "english": "Nanchang",
+    "folder": "nanchang-city-guide",
+    "port": 8813,
+    "lat": 28.682,
+    "lng": 115.8579,
+    "portal": "https://www.nc.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 2,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Nanchang city view (July 2017).jpg",
+      "local": "nanchang.jpg",
+      "caption": "南昌城市景观",
+      "author": "Windmemories",
+      "date": "2017-07-13",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Nanchang_city_view_(July_2017).jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 13,
+    "sourceReadGaps": [
+      {
+        "title": "南昌2025年城市统计：规模、产业与生活背景",
+        "url": "https://www.nc.gov.cn/ncszf/tjgb/202604/b6221a4fa0104604bdc4aacaae0f32ba.shtml",
+        "note": "资料待补读。原页正文为多张图片；目前只读取到标题和日期，未完成图文核验。本条只保留官方出处导航；请打开原文查询，本库暂不提供其中数值或办理条件。"
+      }
+    ],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "nanchang",
+      "ok": true,
+      "seconds": 10.7,
+      "checkedAt": "2026-11-02T06:47:12+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "jinan",
+    "name": "济南",
+    "province": "山东",
+    "english": "Jinan",
+    "folder": "jinan-city-guide",
+    "port": 8814,
+    "lat": 36.6512,
+    "lng": 117.1201,
+    "portal": "https://www.jinan.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "济南市中心.png",
+      "local": "jinan.png",
+      "caption": "济南中心城区天际线",
+      "author": "Ucabunx",
+      "date": "2022-07-20",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:%E6%B5%8E%E5%8D%97%E5%B8%82%E4%B8%AD%E5%BF%83.png"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [
+      {
+        "title": "济南2025年城市统计：规模、产业与生活背景",
+        "url": "https://www.jinan.gov.cn/col/col24701/art/2026/art_83acd9db3b784b7abc7a02d436c9410b.html",
+        "note": "资料待补读。已定位官方人口概况页，但本轮正文访问返回403；不将搜索摘要充作已读正文。本条只保留官方出处导航；请打开原文查询，本库暂不提供其中数值或办理条件。"
+      }
+    ],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "jinan",
+      "ok": true,
+      "seconds": 11.3,
+      "checkedAt": "2026-11-02T06:47:14+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "zhengzhou",
+    "name": "郑州",
+    "province": "河南",
+    "english": "Zhengzhou",
+    "folder": "zhengzhou-city-guide",
+    "port": 8815,
+    "lat": 34.7466,
+    "lng": 113.6254,
+    "portal": "https://www.zhengzhou.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Zhengzhou CBDcity.jpg",
+      "local": "zhengzhou.jpg",
+      "caption": "郑州商务区",
+      "author": "白诗棋",
+      "date": "2025-11-20",
+      "width": 960,
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Zhengzhou_CBDcity.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 3,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "zhengzhou",
+      "ok": true,
+      "seconds": 10.4,
+      "checkedAt": "2026-11-02T06:47:22+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "wuhan",
+    "name": "武汉",
+    "province": "湖北",
+    "english": "Wuhan",
+    "folder": "wuhan-city-guide",
+    "port": 8816,
+    "lat": 30.5928,
+    "lng": 114.3055,
+    "portal": "https://www.wuhan.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Skyline of Wuhan.jpg",
+      "local": "wuhan.jpg",
+      "caption": "从东湖绿道远眺武汉",
+      "author": "Majorantarktis",
+      "date": "2018-07-19",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Wuhan.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 2,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "wuhan",
+      "ok": true,
+      "seconds": 10.4,
+      "checkedAt": "2026-11-02T06:47:22+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "changsha",
+    "name": "长沙",
+    "province": "湖南",
+    "english": "Changsha",
+    "folder": "changsha-city-guide",
+    "port": 8817,
+    "lat": 28.2282,
+    "lng": 112.9388,
+    "portal": "https://www.changsha.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "长沙站.jpg",
+      "local": "changsha.jpg",
+      "caption": "长沙站",
+      "author": "維基小霸王",
+      "date": "2021-05-01",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E7%AB%99.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 2,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "changsha",
+      "ok": true,
+      "seconds": 10.3,
+      "checkedAt": "2026-11-02T06:47:24+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "guangzhou",
+    "name": "广州",
+    "province": "广东",
+    "english": "Guangzhou",
+    "folder": "guangzhou-city-guide",
+    "port": 8818,
+    "lat": 23.1291,
+    "lng": 113.2644,
+    "portal": "https://www.gz.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Guangzhou Skyline, shot in Panyu District, Guangzhou.jpg",
+      "local": "guangzhou.jpg",
+      "caption": "从番禺远眺广州",
+      "author": "YikyuenG",
+      "date": "2026-02-16",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Guangzhou_Skyline%2C_shot_in_Panyu_District%2C_Guangzhou.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 3,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "guangzhou",
+      "ok": true,
+      "seconds": 11.4,
+      "checkedAt": "2026-11-02T06:47:34+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "nanning",
+    "name": "南宁",
+    "province": "广西",
+    "english": "Nanning",
+    "folder": "nanning-city-guide",
+    "port": 8819,
+    "lat": 22.817,
+    "lng": 108.3669,
+    "portal": "https://www.nanning.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "南宁五象新区.jpg",
+      "local": "nanning.jpg",
+      "caption": "南宁五象新区",
+      "author": "EditQ",
+      "date": "2022-10-05",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%81%E4%BA%94%E8%B1%A1%E6%96%B0%E5%8C%BA.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "nanning",
+      "ok": true,
+      "seconds": 11.4,
+      "checkedAt": "2026-11-02T06:47:34+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "haikou",
+    "name": "海口",
+    "province": "海南",
+    "english": "Haikou",
+    "folder": "haikou-city-guide",
+    "port": 8820,
+    "lat": 20.044,
+    "lng": 110.1999,
+    "portal": "https://www.haikou.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Haikou2008b.jpg",
+      "local": "haikou.jpg",
+      "caption": "海口城市历史影像",
+      "author": "Anna Frodesiak",
+      "date": "2008",
+      "width": 960,
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Haikou2008b.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 2,
+    "publicMapRecords": 2,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 11,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "haikou",
+      "ok": true,
+      "seconds": 11.2,
+      "checkedAt": "2026-11-02T06:47:35+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "chongqing",
+    "name": "重庆",
+    "province": "重庆",
+    "english": "Chongqing",
+    "folder": "chongqing-city-guide",
+    "port": 8821,
+    "lat": 29.563,
+    "lng": 106.5516,
+    "portal": "https://www.cq.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "SkylineOfChongqing.jpg",
+      "local": "chongqing.jpg",
+      "caption": "从南山远眺重庆（历史影像）",
+      "author": "Oliver Ren",
+      "date": "2010-07-25",
+      "width": 960,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:SkylineOfChongqing.jpg"
+    },
+    "places": 2,
+    "locatedPlaces": 1,
+    "publicMapRecords": 1,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 10,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "chongqing",
+      "ok": true,
+      "seconds": 11,
+      "checkedAt": "2026-11-02T06:47:45+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "chengdu",
+    "name": "成都",
+    "province": "四川",
+    "english": "Chengdu",
+    "folder": "chengdu-city-guide",
+    "port": 8822,
+    "lat": 30.5728,
+    "lng": 104.0668,
+    "portal": "https://www.chengdu.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "锦江夜景.jpg",
+      "local": "chengdu.jpg",
+      "caption": "成都锦江夜景",
+      "author": "Prcmise",
+      "date": "2018-04-01",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:%E9%94%A6%E6%B1%9F%E5%A4%9C%E6%99%AF.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "chengdu",
+      "ok": true,
+      "seconds": 11,
+      "checkedAt": "2026-11-02T06:47:45+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "guiyang",
+    "name": "贵阳",
+    "province": "贵州",
+    "english": "Guiyang",
+    "folder": "guiyang-city-guide",
+    "port": 8823,
+    "lat": 26.647,
+    "lng": 106.6302,
+    "portal": "https://www.guiyang.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 2,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Guiyang Skyline.jpg",
+      "local": "guiyang.jpg",
+      "caption": "贵阳城市天际线",
+      "author": "Ryedamien",
+      "date": "2019-06-01",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Guiyang_Skyline.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 13,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "guiyang",
+      "ok": true,
+      "seconds": 10.6,
+      "checkedAt": "2026-11-02T06:47:46+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "kunming",
+    "name": "昆明",
+    "province": "云南",
+    "english": "Kunming",
+    "folder": "kunming-city-guide",
+    "port": 8824,
+    "lat": 25.0389,
+    "lng": 102.7183,
+    "portal": "https://www.km.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Kunming City.jpg",
+      "local": "kunming.jpg",
+      "caption": "昆明中心城区",
+      "author": "JTren2006",
+      "date": "2025-03-14",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Kunming_City.jpg"
+    },
+    "places": 1,
+    "locatedPlaces": 1,
+    "publicMapRecords": 1,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 10,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "kunming",
+      "ok": true,
+      "seconds": 10.9,
+      "checkedAt": "2026-11-02T06:47:56+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "lhasa",
+    "name": "拉萨",
+    "province": "西藏",
+    "english": "Lhasa",
+    "folder": "lhasa-city-guide",
+    "port": 8825,
+    "lat": 29.652,
+    "lng": 91.1721,
+    "portal": "https://www.lasa.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Lhasa city, Tibet.jpg",
+      "local": "lhasa.jpg",
+      "caption": "拉萨城市景观",
+      "author": "cattan2011",
+      "date": "2017-08-05",
+      "width": 960,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Lhasa_city%2C_Tibet.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 1,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "lhasa",
+      "ok": true,
+      "seconds": 10.8,
+      "checkedAt": "2026-11-02T06:47:55+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "xian",
+    "name": "西安",
+    "province": "陕西",
+    "english": "Xi'an",
+    "folder": "xian-city-guide",
+    "port": 8826,
+    "lat": 34.3416,
+    "lng": 108.9398,
+    "portal": "https://www.xa.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Xi'an from the city walls.jpg",
+      "local": "xian.jpg",
+      "caption": "从城墙看西安",
+      "author": "Ideophagous",
+      "date": "2026-03-23（EXIF）",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Xi'an_from_the_city_walls.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 13,
+    "sourceReadGaps": [
+      {
+        "title": "西安2025年城市统计：规模、产业与生活背景",
+        "url": "https://tjj.xa.gov.cn/tjsj/tjxx/2018511615350665218.html",
+        "note": "资料待补读。已定位2025年经济运行官方发布，但正文读取超时；暂不录入搜索摘要中的数值。本条只保留官方出处导航；请打开原文查询，本库暂不提供其中数值或办理条件。"
+      }
+    ],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "xian",
+      "ok": true,
+      "seconds": 10.7,
+      "checkedAt": "2026-11-02T06:47:57+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "lanzhou",
+    "name": "兰州",
+    "province": "甘肃",
+    "english": "Lanzhou",
+    "folder": "lanzhou-city-guide",
+    "port": 8827,
+    "lat": 36.0611,
+    "lng": 103.8343,
+    "portal": "https://www.lanzhou.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Skyline Lanzhou August 2025.jpg",
+      "local": "lanzhou.jpg",
+      "caption": "兰州城市天际线",
+      "author": "Megalizard29",
+      "date": "2025-08-30",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Skyline_Lanzhou_August_2025.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "lanzhou",
+      "ok": true,
+      "seconds": 10.8,
+      "checkedAt": "2026-11-02T06:48:06+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "xining",
+    "name": "西宁",
+    "province": "青海",
+    "english": "Xining",
+    "folder": "xining-city-guide",
+    "port": 8828,
+    "lat": 36.6171,
+    "lng": 101.7782,
+    "portal": "https://www.xining.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "Xining skyline.jpg",
+      "local": "xining.jpg",
+      "caption": "西宁城市天际线",
+      "author": "NoGhost",
+      "date": "2014-07-13",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Xining_skyline.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 12,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "xining",
+      "ok": true,
+      "seconds": 10.7,
+      "checkedAt": "2026-11-02T06:48:06+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "yinchuan",
+    "name": "银川",
+    "province": "宁夏",
+    "english": "Yinchuan",
+    "folder": "yinchuan-city-guide",
+    "port": 8829,
+    "lat": 38.4872,
+    "lng": 106.2309,
+    "portal": "https://www.yinchuan.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "View of Yinchuan looking west from top of Chengtian Temple Pagoda.jpg",
+      "local": "yinchuan.jpg",
+      "caption": "从承天寺塔向西看银川",
+      "author": "BabelStone",
+      "date": "2016-08-18",
+      "width": 960,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:View_of_Yinchuan_looking_west_from_top_of_Chengtian_Temple_Pagoda.jpg"
+    },
+    "places": 3,
+    "locatedPlaces": 3,
+    "publicMapRecords": 3,
+    "statisticalFacts": 0,
+    "districtProfiles": 0,
+    "sources": 13,
+    "sourceReadGaps": [
+      {
+        "title": "银川2025年城市统计：规模、产业与生活背景",
+        "url": "https://www.yinchuan.gov.cn/xxgk/bmxxgkml/stjj/xxgkml_2517/tjxx_7670/tjgb_7671/202604/t20260427_5226142.html",
+        "note": "资料待补读。原站正文读取返回405；已登记出处但不把检索摘要当作已完成全文核验。本条只保留官方出处导航；请打开原文查询，本库暂不提供其中数值或办理条件。"
+      }
+    ],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "yinchuan",
+      "ok": true,
+      "seconds": 10.8,
+      "checkedAt": "2026-11-02T06:48:07+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  },
+  {
+    "id": "urumqi",
+    "name": "乌鲁木齐",
+    "province": "新疆",
+    "english": "Urumqi",
+    "folder": "urumqi-city-guide",
+    "port": 8830,
+    "lat": 43.8256,
+    "lng": 87.6168,
+    "portal": "https://www.wlmq.gov.cn/",
+    "brand": "城知",
+    "version": "0.3.0",
+    "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+    "stage": "各城可运行首版，持续补充",
+    "localDocuments": 1,
+    "nationalDocuments": 6,
+    "syntheses": 3,
+    "photos": 1,
+    "photo": {
+      "id": "cbd",
+      "file": "乌鲁木齐市中心的街景.jpg",
+      "local": "urumqi.jpg",
+      "caption": "乌鲁木齐中心城区街景",
+      "author": "螺钉",
+      "date": "2018-05-01",
+      "width": 960,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E4%B8%AD%E5%BF%83%E7%9A%84%E8%A1%97%E6%99%AF.jpg"
+    },
+    "places": 1,
+    "locatedPlaces": 1,
+    "publicMapRecords": 1,
+    "statisticalFacts": 3,
+    "districtProfiles": 0,
+    "sources": 10,
+    "sourceReadGaps": [],
+    "domains": [
+      {
+        "id": "overview",
+        "name": "城市概览",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "已有本地正文，待扩充"
+      },
+      {
+        "id": "history",
+        "name": "历史文化",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "transport",
+        "name": "交通出行",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "culture",
+        "name": "公共文化",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "park",
+        "name": "公园运动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "travel",
+        "name": "景区游览",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "event",
+        "name": "展览活动",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "food",
+        "name": "饮食物产",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "housing",
+        "name": "居住社区",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "career",
+        "name": "就业人才",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "education",
+        "name": "教育家庭",
+        "localArticles": 1,
+        "nationalArticles": 0,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "health",
+        "name": "医疗服务",
+        "localArticles": 1,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "本地统计背景已读，办理细则待补"
+      },
+      {
+        "id": "service",
+        "name": "日常办事",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 1,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "industry",
+        "name": "产业园区",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      },
+      {
+        "id": "accessibility",
+        "name": "无障碍服务",
+        "localArticles": 0,
+        "nationalArticles": 1,
+        "syntheses": 0,
+        "state": "已有全国资料，本市细则待补"
+      },
+      {
+        "id": "international",
+        "name": "国际服务",
+        "localArticles": 0,
+        "nationalArticles": 0,
+        "syntheses": 0,
+        "state": "本地资料待核验"
+      }
+    ],
+    "build": {
+      "city": "urumqi",
+      "ok": true,
+      "seconds": 10.2,
+      "checkedAt": "2026-11-02T06:48:16+0800"
+    },
+    "nativePublished": false,
+    "modelConnected": false,
+    "updatedAt": "2026-10-31"
+  }
+]

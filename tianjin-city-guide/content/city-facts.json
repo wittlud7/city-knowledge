@@ -1,0 +1,25 @@
+{
+  "city": "tianjin",
+  "dataYear": 2025,
+  "sourceId": "doc-local-tianjin",
+  "url": "https://www.tj.gov.cn/sq/tjgb/202603/t20260327_7271193.html",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业32.73万人。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆20个、文化馆17个、博物馆84个。"
+    },
+    {
+      "category": "health",
+      "text": "年末卫生机构7415个，其中医院451个。"
+    },
+    {
+      "category": "housing",
+      "text": "全年新筹集保障性租赁住房6957套（间）；不是当前可申请房源。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

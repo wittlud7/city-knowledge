@@ -1,0 +1,21 @@
+{
+  "city": "fuzhou",
+  "dataYear": 2025,
+  "sourceId": "doc-local-fuzhou",
+  "url": "https://tjj.fuzhou.gov.cn/zwgk/tjzl/ndbg/202604/t20260414_5308173.htm",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业13.20万人。"
+    },
+    {
+      "category": "culture",
+      "text": "年末文化系统公共图书馆13个、文化馆13个。"
+    },
+    {
+      "category": "health",
+      "text": "年末各级各类医疗卫生机构5554个，其中医院154个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

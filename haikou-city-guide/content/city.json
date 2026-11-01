@@ -1,0 +1,14 @@
+{
+  "id": "haikou",
+  "name": "海口",
+  "province": "海南",
+  "english": "Haikou",
+  "folder": "haikou-city-guide",
+  "port": 8820,
+  "lat": 20.044,
+  "lng": 110.1999,
+  "portal": "https://www.haikou.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

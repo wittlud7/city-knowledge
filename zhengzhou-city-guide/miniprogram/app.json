@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/knowledge/knowledge",
+    "pages/explore/explore",
+    "pages/ask/ask",
+    "pages/plan/plan",
+    "pages/life/life",
+    "pages/events/events",
+    "pages/me/me",
+    "pages/sources/sources",
+    "pages/detail/detail",
+    "pages/admin/admin"
+  ],
+  "window": {
+    "navigationBarTitleText": "城知 · 郑州城市指南",
+    "navigationBarBackgroundColor": "#f5f0df",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f0df"
+  },
+  "tabBar": {
+    "color": "#626b7e",
+    "selectedColor": "#3555ac",
+    "backgroundColor": "#fff9ea",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "认识郑州"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "城市资料库"
+      },
+      {
+        "pagePath": "pages/ask/ask",
+        "text": "问问郑州"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的郑州"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

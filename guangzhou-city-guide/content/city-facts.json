@@ -1,0 +1,21 @@
+{
+  "city": "guangzhou",
+  "dataYear": 2025,
+  "sourceId": "doc-local-guangzhou",
+  "url": "https://tjj.gz.gov.cn/zzfwzq/tjkx/content/post_10804061.html",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业35.09万人。"
+    },
+    {
+      "category": "culture",
+      "text": "年末区级以上公共图书馆14间、国有博物馆和纪念馆42个；不是全市所有书房与博物馆总数。"
+    },
+    {
+      "category": "health",
+      "text": "年末各类医疗卫生机构7582个，其中医院347个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

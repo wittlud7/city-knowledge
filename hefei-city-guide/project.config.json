@@ -1,0 +1,8 @@
+{
+ "description":"城知 · 合肥城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-hefei",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

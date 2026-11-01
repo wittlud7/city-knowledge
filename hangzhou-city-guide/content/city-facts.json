@@ -1,0 +1,29 @@
+{
+  "city": "hangzhou",
+  "dataYear": 2025,
+  "sourceId": "doc-local-hangzhou",
+  "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-04/30/content_9214808.htm",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业31.4万人。"
+    },
+    {
+      "category": "education",
+      "text": "年末普通高校40所。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆15个、文化馆15个，均为含省级机构口径。"
+    },
+    {
+      "category": "health",
+      "text": "年末各类医疗卫生机构7592个，其中医院440个。"
+    },
+    {
+      "category": "transport",
+      "text": "年末轨道交通运营里程516公里，全年地铁客运量15.0亿人次。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

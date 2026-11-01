@@ -1,0 +1,17 @@
+{
+  "city": "wuhan",
+  "dataYear": 2025,
+  "sourceId": "doc-local-wuhan",
+  "url": "https://tjj.wuhan.gov.cn/tjfw/tjgb/202604/t20260408_2750693.shtml",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业29.90万人。"
+    },
+    {
+      "category": "culture",
+      "text": "公报列市直公共图书馆2个、市直博物馆11个；“市直”不等于全市所有馆。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

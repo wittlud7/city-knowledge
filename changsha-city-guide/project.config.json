@@ -1,0 +1,8 @@
+{
+ "description":"城知 · 长沙城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-changsha",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

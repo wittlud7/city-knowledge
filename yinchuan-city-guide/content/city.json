@@ -1,0 +1,14 @@
+{
+  "id": "yinchuan",
+  "name": "银川",
+  "province": "宁夏",
+  "english": "Yinchuan",
+  "folder": "yinchuan-city-guide",
+  "port": 8829,
+  "lat": 38.4872,
+  "lng": 106.2309,
+  "portal": "https://www.yinchuan.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

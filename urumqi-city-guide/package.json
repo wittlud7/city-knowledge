@@ -1,0 +1,27 @@
+{
+  "name": "chengzhi-urumqi-city-guide",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node server/index.mjs",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs",
+    "check:mini": "node scripts/check-mini.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

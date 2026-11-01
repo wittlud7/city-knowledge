@@ -1,0 +1,17 @@
+{
+  "city": "changsha",
+  "dataYear": 2025,
+  "sourceId": "doc-local-changsha",
+  "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/szgb/zss_1/202605/t20260512_33975356.html",
+  "sections": [
+    {
+      "category": "culture",
+      "text": "2025年末公共图书馆12个、文化馆11个、博物馆（纪念馆）28个。"
+    },
+    {
+      "category": "health",
+      "text": "年末卫生机构6635个，其中医院245个、社区卫生服务中心（站）481个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

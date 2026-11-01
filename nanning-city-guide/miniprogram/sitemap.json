@@ -1,0 +1,1 @@
+{"desc":"页面索引暂关闭，避免试运行内容被索引。","rules":[{"action":"disallow","page":"*"}]}

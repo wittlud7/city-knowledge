@@ -1,0 +1,90 @@
+{
+  "city": "shanghai",
+  "checkedAt": "2026-10-31",
+  "publisher": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "policyUrl": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "固定命名机构的一次性离线查询；不是运行时通用搜索；参考坐标不代表入口或当前开放",
+  "places": [
+    {
+      "id": "map-shanghai-0",
+      "name": "上海博物馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 121.4709998,
+      "lat": 31.2301577,
+      "summary": "公共地图记录名：上海博物馆。位置描述：上海博物馆, 201, 人民大道, 江阴社区, 南京东路街道, 上海市, 黄浦区, 上海市, 200001, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-shanghai-0",
+      "sourceIds": [
+        "map-shanghai-0"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/161090899",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/161090899",
+        "query": "上海 上海博物馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    },
+    {
+      "id": "map-shanghai-1",
+      "name": "上海科技馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 121.5367332,
+      "lat": 31.2206022,
+      "summary": "公共地图记录名：上海科技馆。位置描述：上海科技馆, 2000, 世纪大道, 花木街道, 浦东新区, 上海市, 200127, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "科普"
+      ],
+      "sourceId": "map-shanghai-1",
+      "sourceIds": [
+        "map-shanghai-1"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/43927496",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/43927496",
+        "query": "上海 上海科技馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    }
+  ],
+  "unmatched": [
+    "上海图书馆"
+  ]
+}

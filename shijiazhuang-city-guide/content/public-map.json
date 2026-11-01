@@ -1,0 +1,90 @@
+{
+  "city": "shijiazhuang",
+  "checkedAt": "2026-10-31",
+  "publisher": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "policyUrl": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "固定命名机构的一次性离线查询；不是运行时通用搜索；参考坐标不代表入口或当前开放",
+  "places": [
+    {
+      "id": "map-shijiazhuang-0",
+      "name": "河北省图书馆",
+      "district": "全市",
+      "category": "culture",
+      "lng": 114.5167857,
+      "lat": 38.0379648,
+      "summary": "公共地图记录名：河北省图书馆。位置描述：河北省图书馆, 范西路, 青园街道, 长安区, 石家庄市, 河北省, 050000, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "图书馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-shijiazhuang-0",
+      "sourceIds": [
+        "map-shijiazhuang-0"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/838474515",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/838474515",
+        "query": "石家庄 河北省图书馆"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    },
+    {
+      "id": "map-shijiazhuang-1",
+      "name": "河北博物院",
+      "district": "全市",
+      "category": "culture",
+      "lng": 114.5167289,
+      "lat": 38.0401232,
+      "summary": "公共地图记录名：河北博物院。位置描述：河北博物院, 4号, 东大街, 广安街道, 长安区, 石家庄市, 河北省, 050021, 中国。参考点可能是建筑或园区范围，不代表具体入口；当前开放、预约和服务规则尚须向机构核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "map-shijiazhuang-1",
+      "sourceIds": [
+        "map-shijiazhuang-1"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/relation/14391140",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "relation/14391140",
+        "query": "石家庄 河北博物院"
+      },
+      "coordinateNote": "位置取自公共地图，仅作参考；馆区、实际入口和当前开放未完成官方核验。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "仅核对公共地图记录的名称与城市范围；不表示机构服务已核验"
+    }
+  ],
+  "unmatched": [
+    "河北省科学技术馆"
+  ]
+}

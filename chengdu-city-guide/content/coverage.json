@@ -1,0 +1,177 @@
+{
+  "id": "chengdu",
+  "name": "成都",
+  "province": "四川",
+  "english": "Chengdu",
+  "folder": "chengdu-city-guide",
+  "port": 8822,
+  "lat": 30.5728,
+  "lng": 104.0668,
+  "portal": "https://www.chengdu.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+  "stage": "各城可运行首版，持续补充",
+  "localDocuments": 1,
+  "nationalDocuments": 6,
+  "syntheses": 3,
+  "photos": 1,
+  "photo": {
+    "id": "cbd",
+    "file": "锦江夜景.jpg",
+    "local": "chengdu.jpg",
+    "caption": "成都锦江夜景",
+    "author": "Prcmise",
+    "date": "2018-04-01",
+    "width": 960,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:%E9%94%A6%E6%B1%9F%E5%A4%9C%E6%99%AF.jpg"
+  },
+  "places": 3,
+  "locatedPlaces": 3,
+  "publicMapRecords": 3,
+  "statisticalFacts": 0,
+  "districtProfiles": 0,
+  "sources": 12,
+  "sourceReadGaps": [],
+  "domains": [
+    {
+      "id": "overview",
+      "name": "城市概览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "history",
+      "name": "历史文化",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "transport",
+      "name": "交通出行",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "culture",
+      "name": "公共文化",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "park",
+      "name": "公园运动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "travel",
+      "name": "景区游览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "event",
+      "name": "展览活动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "food",
+      "name": "饮食物产",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "housing",
+      "name": "居住社区",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "career",
+      "name": "就业人才",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "education",
+      "name": "教育家庭",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 1,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "health",
+      "name": "医疗服务",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "service",
+      "name": "日常办事",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "industry",
+      "name": "产业园区",
+      "localArticles": 1,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "accessibility",
+      "name": "无障碍服务",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "international",
+      "name": "国际服务",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    }
+  ],
+  "build": {
+    "city": "chengdu",
+    "ok": true,
+    "seconds": 11,
+    "checkedAt": "2026-11-02T06:47:45+0800"
+  },
+  "nativePublished": false,
+  "modelConnected": false,
+  "updatedAt": "2026-10-31"
+}

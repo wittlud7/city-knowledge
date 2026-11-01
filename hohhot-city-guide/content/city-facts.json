@@ -1,0 +1,29 @@
+{
+  "city": "hohhot",
+  "dataYear": 2025,
+  "sourceId": "doc-local-hohhot",
+  "url": "https://static.0471tv.org.cn/rb/pc/con/202604/18/content_98603.html",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业6.1万人。"
+    },
+    {
+      "category": "education",
+      "text": "年末普通高校24所。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆10个、文化馆10个、博物馆30个。"
+    },
+    {
+      "category": "health",
+      "text": "年末卫生机构3458个，其中医院123个。"
+    },
+    {
+      "category": "park",
+      "text": "年末体育场27个、体育馆23个；不是全部可随时免费使用的场地清单。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

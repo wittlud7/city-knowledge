@@ -1,0 +1,25 @@
+{
+  "city": "nanjing",
+  "dataYear": 2024,
+  "sourceId": "doc-local-nanjing",
+  "url": "https://tjj.nanjing.gov.cn/njstjj/202504/t20250401_5108470.html",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2024年城镇新增就业21.94万人。"
+    },
+    {
+      "category": "education",
+      "text": "在宁普通高校53所，不含部队院校。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆15个、文化馆14个、博物馆82个。"
+    },
+    {
+      "category": "health",
+      "text": "年末卫生机构3979个；医院、社区卫生服务中心及卫生院合计446个。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

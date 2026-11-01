@@ -1,0 +1,8 @@
+{
+ "description":"城知 · 西宁城市指南",
+ "miniprogramRoot":"miniprogram/",
+ "compileType":"miniprogram",
+ "appid":"touristappid",
+ "projectname":"jingzhi-xining",
+ "setting":{"es6":true,"enhance":true,"minified":true,"urlCheck":false}
+}

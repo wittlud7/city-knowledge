@@ -1,0 +1,1205 @@
+{
+  "description": "北京样板人工验收题库。不是100题已通过的准确率报告。",
+  "questions": [
+    {
+      "id": "BJ-001",
+      "category": "overview",
+      "question": "第一次来北京，怎样理解不同区域的关系？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-002",
+      "category": "overview",
+      "question": "行政区、商圈和地铁站周边有什么区别？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-003",
+      "category": "overview",
+      "question": "了解北京人口应该查什么年份和口径？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-004",
+      "category": "overview",
+      "question": "北京城区与远郊出游安排有什么不同？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-005",
+      "category": "overview",
+      "question": "怎样建立以住处为中心的生活地图？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-006",
+      "category": "overview",
+      "question": "为什么不能只用景点数量理解北京？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-007",
+      "category": "history",
+      "question": "北京中轴线可以怎样分段理解？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-008",
+      "category": "history",
+      "question": "研究一条胡同的历史应查哪些资料？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-009",
+      "category": "history",
+      "question": "同一地名的旧称与现称如何对应？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-010",
+      "category": "history",
+      "question": "怎样把地方志与现场观察结合？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-011",
+      "category": "history",
+      "question": "什刹海的历史可以从哪些文献查起？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-012",
+      "category": "history",
+      "question": "南锣鼓巷适合从哪些空间线索观察？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-013",
+      "category": "history",
+      "question": "北京皇家园林有哪些文化理解线索？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-014",
+      "category": "history",
+      "question": "同一事件在不同地方文献里有差异怎么办？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-015",
+      "category": "transport",
+      "question": "晚上到北京南站，怎样核实去住处的交通？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-016",
+      "category": "transport",
+      "question": "怎样核实地铁末班与临时调整？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-017",
+      "category": "transport",
+      "question": "带大件行李出行应补充哪些条件？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-018",
+      "category": "transport",
+      "question": "北京首都机场与大兴机场怎么区分？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-019",
+      "category": "transport",
+      "question": "怎样比较两处住所的通勤条件？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-020",
+      "category": "transport",
+      "question": "系统提供的是直线距离还是导航距离？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-021",
+      "category": "transport",
+      "question": "远郊景点的返程要提前核实什么？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-022",
+      "category": "transport",
+      "question": "地图上的近似点位能否直接当入口？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-023",
+      "category": "culture",
+      "question": "北京怎样查找图书馆？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-024",
+      "category": "culture",
+      "question": "首都博物馆开放信息最近何时核验？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-025",
+      "category": "culture",
+      "question": "如何查询首都图书馆的借阅要求？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-026",
+      "category": "culture",
+      "question": "怎样找到住处附近的文化馆？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-027",
+      "category": "culture",
+      "question": "夜校课程报名应该查什么渠道？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-028",
+      "category": "culture",
+      "question": "带孩子参观博物馆应如何安排时间？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-029",
+      "category": "culture",
+      "question": "怎样确认博物馆的临时闭馆通知？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-030",
+      "category": "culture",
+      "question": "北京大运河博物馆的规则在哪里确认？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-031",
+      "category": "park",
+      "question": "怎样选择轻松散步的公园？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-032",
+      "category": "park",
+      "question": "带老人去公园需要提前确认什么？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-033",
+      "category": "park",
+      "question": "登山和城市散步的准备有什么区别？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-034",
+      "category": "park",
+      "question": "下雨时户外安排怎样调整？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-035",
+      "category": "park",
+      "question": "香山游览需要考虑哪些体力因素？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-036",
+      "category": "park",
+      "question": "怎样核实公共体育场馆的使用规则？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-037",
+      "category": "travel",
+      "question": "故宫的官方预约入口在哪里？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-038",
+      "category": "travel",
+      "question": "没有预约到场馆时怎样调整行程？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-039",
+      "category": "travel",
+      "question": "带父母两天逛北京怎样减少步行？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-040",
+      "category": "travel",
+      "question": "故宫和天坛能否轻松安排在同一半天？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-041",
+      "category": "travel",
+      "question": "一天行程怎样预留休息与交通？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-042",
+      "category": "travel",
+      "question": "三天行程只看博物馆可以怎样筛选？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-043",
+      "category": "travel",
+      "question": "只在西城区安排一天候选路线可以吗？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-044",
+      "category": "travel",
+      "question": "景点实际费用能否保证在预算内？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-045",
+      "category": "event",
+      "question": "这个周末有哪些经过核验的活动？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-046",
+      "category": "event",
+      "question": "没有已核验活动时怎样查官方信息？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-047",
+      "category": "event",
+      "question": "怎样核实讲座的报名和取消通知？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-048",
+      "category": "event",
+      "question": "过期活动为什么不再显示？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-049",
+      "category": "event",
+      "question": "某日期的展览活动如何筛选？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-050",
+      "category": "event",
+      "question": "活动主办方来源在哪里查看？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-051",
+      "category": "food",
+      "question": "北京饮食文化可以查哪些地方资料？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-052",
+      "category": "food",
+      "question": "老字号名录是否等于实时门店排名？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-053",
+      "category": "food",
+      "question": "如何区分历史饮食记载与当代体验？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-054",
+      "category": "food",
+      "question": "能否提供今天某餐馆的实时价格？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-055",
+      "category": "housing",
+      "question": "刚到北京工作，怎样考察生活区域？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-056",
+      "category": "housing",
+      "question": "没有实时租金数据时能给什么帮助？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-057",
+      "category": "housing",
+      "question": "看房时需要核实哪些费用和条件？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-058",
+      "category": "housing",
+      "question": "住处附近公共配套应该怎样查？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-059",
+      "category": "housing",
+      "question": "怎样找到社区公共服务入口？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-060",
+      "category": "housing",
+      "question": "住房保障信息应该从哪里核对？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-061",
+      "category": "career",
+      "question": "初来北京如何查公共就业服务？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-062",
+      "category": "career",
+      "question": "人才补贴适用条件应怎样核对？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-063",
+      "category": "career",
+      "question": "招聘信息如何确认发布渠道？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-064",
+      "category": "career",
+      "question": "创业政策能否直接判定我符合？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-065",
+      "category": "career",
+      "question": "单位所在区对人才服务查询有什么影响？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-066",
+      "category": "career",
+      "question": "过期的就业政策会继续用于回答吗？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-067",
+      "category": "education",
+      "question": "带孩子来北京应先查哪些教育信息？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-068",
+      "category": "education",
+      "question": "入学政策为什么需要区分年份和区？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-069",
+      "category": "education",
+      "question": "系统能直接保证孩子可以入学吗？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-070",
+      "category": "education",
+      "question": "怎样查询亲子公共文化设施？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-071",
+      "category": "education",
+      "question": "托育服务信息需要核实哪些字段？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-072",
+      "category": "education",
+      "question": "招生材料清单应该使用什么来源？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-073",
+      "category": "health",
+      "question": "怎样找到医疗机构的官方信息？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-074",
+      "category": "health",
+      "question": "挂号入口应如何核实？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-075",
+      "category": "health",
+      "question": "医保待遇与费用应该向哪里确认？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-076",
+      "category": "health",
+      "question": "来京陪护者怎样建立周边生活清单？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-077",
+      "category": "health",
+      "question": "系统是否会读取我的医保账户？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-078",
+      "category": "health",
+      "question": "健康服务导航会不会给出医疗诊断？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-079",
+      "category": "service",
+      "question": "初到北京的第一周可以做哪些准备？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-080",
+      "category": "service",
+      "question": "居住登记应怎样查询现行指南？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-081",
+      "category": "service",
+      "question": "公积金提取条件应该在哪里核实？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-082",
+      "category": "service",
+      "question": "证照事项如何确认受理地点？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-083",
+      "category": "service",
+      "question": "社保相关办事材料如何避免使用旧攻略？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-084",
+      "category": "service",
+      "question": "生活清单可以添加自己的事项吗？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-085",
+      "category": "industry",
+      "question": "认识北京产业布局可以查哪些资料？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-086",
+      "category": "industry",
+      "question": "规划项目与已建项目应该如何区分？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-087",
+      "category": "industry",
+      "question": "怎样从工业遗产理解首钢园？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-088",
+      "category": "industry",
+      "question": "园区介绍与真实就业信息有什么区别？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-089",
+      "category": "accessibility",
+      "question": "使用轮椅参观场馆要核实哪些设施？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-090",
+      "category": "accessibility",
+      "question": "室内地点是否必然适合轮椅？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-091",
+      "category": "accessibility",
+      "question": "带婴儿车的路线要确认什么？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-092",
+      "category": "accessibility",
+      "question": "减少每日地点后是否就能保证无障碍？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-093",
+      "category": "accessibility",
+      "question": "怎样核实具体无障碍入口？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-094",
+      "category": "accessibility",
+      "question": "地图近似点位可以当无障碍路线吗？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-095",
+      "category": "international",
+      "question": "外籍来访者可用哪些官方服务入口？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-096",
+      "category": "international",
+      "question": "北京国际版门户网站在哪里？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-097",
+      "category": "international",
+      "question": "系统能否代替主管机关判断入境资格？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-098",
+      "category": "international",
+      "question": "如何获取官方多语言信息？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-099",
+      "category": "international",
+      "question": "当前产品是否已经支持多语言对话？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "id": "BJ-100",
+      "category": "international",
+      "question": "个人身份与办理条件不明确时应怎样回答？",
+      "expected": "提供相关已发布资料与可追溯引用；缺少具体证据时明确说明缺口，不补造实时状态、数值或资格结论。",
+      "evaluation": {
+        "factualAccuracy": null,
+        "citationSupport": null,
+        "taskCompletion": null,
+        "requiresHumanReview": true
+      }
+    }
+  ]
+}

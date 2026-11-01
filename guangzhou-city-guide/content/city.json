@@ -1,0 +1,14 @@
+{
+  "id": "guangzhou",
+  "name": "广州",
+  "province": "广东",
+  "english": "Guangzhou",
+  "folder": "guangzhou-city-guide",
+  "port": 8818,
+  "lat": 23.1291,
+  "lng": 113.2644,
+  "portal": "https://www.gz.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

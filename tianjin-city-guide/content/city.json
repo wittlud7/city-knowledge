@@ -1,0 +1,14 @@
+{
+  "id": "tianjin",
+  "name": "天津",
+  "province": "天津",
+  "english": "Tianjin",
+  "folder": "tianjin-city-guide",
+  "port": 8801,
+  "lat": 39.0842,
+  "lng": 117.2008,
+  "portal": "https://www.tj.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单"
+}

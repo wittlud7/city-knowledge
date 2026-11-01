@@ -1,0 +1,29 @@
+{
+  "city": "shijiazhuang",
+  "dataYear": 2025,
+  "sourceId": "doc-local-shijiazhuang",
+  "url": "https://www.sjz.gov.cn/columns/3b027198-9da1-4d9f-90e5-278a79356d57/202605/26/ef0e7319-722e-4588-ad83-82a69809b9b7.html",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业14.7万人。"
+    },
+    {
+      "category": "education",
+      "text": "年末普通高校46所；此项按原文不含辛集市。"
+    },
+    {
+      "category": "culture",
+      "text": "年末公共图书馆24个、文化馆23个、博物馆16个；这些指标不含辛集市。"
+    },
+    {
+      "category": "health",
+      "text": "年末医疗卫生机构（含诊所）9875个、医院307个；这些指标不含辛集市。"
+    },
+    {
+      "category": "transport",
+      "text": "2025年度地铁客运量1.89亿人次；不是历年累计客运量。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

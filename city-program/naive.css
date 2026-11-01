@@ -1,0 +1,29 @@
+:root{--paper:#f5f0df;--white:#fffdf5;--ink:#273e72;--blue:#3555ac;--red:#b94e32;--yellow:#f5df91;--serif:KaiTi,STKaiti,"Kaiti SC","Songti SC",serif;background:var(--paper);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+body{background-color:var(--paper);background-image:radial-gradient(#b0a58444 .65px,transparent .65px);background-size:7px 7px}
+header{padding-top:50px;padding-bottom:15px;position:relative}
+header:before{content:"城知 · 城市生活手册";display:block;width:max-content;font-family:var(--serif);font-size:18px;letter-spacing:2px;border:2px solid var(--red);border-radius:4px 7px 3px 6px;color:var(--red);background:#fff4e0;padding:8px 13px;margin-bottom:30px;transform:rotate(-3deg);box-shadow:2px 2px 0 #d4bea4}
+header .eyebrow{color:var(--blue);letter-spacing:2px;font-size:11px}
+h1{font-family:var(--serif);font-size:clamp(34px,5vw,64px);font-weight:800;letter-spacing:1px;color:var(--blue);line-height:1.45;margin:18px 0 15px}
+h2{font-family:var(--serif);font-size:30px;font-weight:700;color:var(--ink)}p{color:#62677a;font-size:14px;line-height:1.95}
+.stats{gap:12px;padding:20px 0 27px}.stats>div{border:1.5px solid var(--ink);border-radius:4px 9px 3px 7px;padding:15px 20px;background:var(--yellow);box-shadow:3px 3px 0 #c0b89e;min-width:166px}
+.stats>div:nth-child(2){background:#e4e9cb}.stats>div:nth-child(3){background:#e0e8ef}.stats>div:nth-child(4){background:#f0d7cc}
+.stats strong{font-family:Georgia,serif;font-size:33px;color:var(--ink);margin-bottom:5px}.stats span{color:#596275;font-size:12px}
+.notice{background:#ede8d6;border:1px dashed #9d9781;border-radius:5px;color:#626658;font-size:12px;padding:16px 19px}
+main{padding-top:26px}.toolbar{margin:23px 0 30px;gap:12px}input,select{border:1.5px solid #8d93a4;background:var(--white);color:var(--ink);border-radius:4px 8px 3px 6px;min-width:0;font-size:13px;padding:13px}
+button{border:1.5px solid var(--ink);background:var(--blue);color:var(--white);border-radius:4px 8px 3px 6px;box-shadow:3px 3px 0 #bbb59e;font-size:13px;transition:transform .15s,background .15s}
+button:hover{background:#29458e;transform:translateY(-1px)}button:disabled{transform:none;box-shadow:none}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--blue);outline-offset:4px}a{color:var(--blue);text-underline-offset:4px}
+.grid{gap:27px}.card{background:var(--white);border:1.5px solid var(--ink);border-radius:6px 11px 4px 8px;box-shadow:4px 5px 0 #c9c2aa;padding-top:12px}
+.photo{margin:0 12px;height:195px;border:1px solid #bdb9a5;border-radius:2px}.photo img{display:block}
+.credit{background:#1a2945cc;font-size:9px;padding:8px 10px;line-height:1.7}.content{padding:21px 21px 23px}.content>small{font-size:10px;color:#766557;letter-spacing:1px}
+.card h2{font-family:var(--serif);font-size:32px;color:var(--blue);margin:11px 10px 0 0}.stage{display:inline-block;border:1px solid #a65b44;background:#fff1dd;color:var(--red);font-family:var(--serif);font-size:12px;padding:3px 6px;border-radius:3px;transform:rotate(-4deg)}
+.counts{color:#596374;font-size:12px;line-height:2;margin:15px 0 19px;overflow-wrap:anywhere}.actions{gap:12px}.actions a{font-size:12px}.status{color:#686e7a;font-size:10px;margin-top:17px;line-height:1.8}
+details{border-top:1px dashed #bcb9a6;margin-top:16px;padding-top:14px;color:#626a78}summary{color:var(--blue);line-height:1.8}.domains{gap:9px}.domain{background:#eee9d7;border-radius:3px;padding:9px;line-height:1.8}.domain:nth-child(3n+1){background:#e7ebd5}.domain b{color:var(--ink)}.gap{color:#8e563c}
+.pitch{background:#e4e9cb;color:var(--ink);border:2px solid var(--ink);border-radius:8px 4px 12px 6px;box-shadow:5px 5px 0 #b9b79f;padding:30px 34px;margin-top:42px;position:relative}
+.pitch:after{content:"先从真实问题开始";position:absolute;right:24px;top:23px;color:var(--red);border:2px solid var(--red);border-radius:3px;font-family:var(--serif);font-size:14px;padding:5px 8px;transform:rotate(7deg)}
+.pitch small{color:#59654b!important}.pitch h2{margin-top:12px;font-size:31px;max-width:80%}.pitch ol{font-size:13px;line-height:2.1;padding-left:22px}.pitch p{color:#596550;font-size:12px}
+.toast{background:var(--ink);color:var(--white);border:1px solid #fff5d8;border-radius:5px;box-shadow:3px 3px 0 #b0a68c}
+footer{color:#6b6e72;font-size:11px;line-height:1.95;border-top:1px dashed #9c9b88;margin-top:15px}
+@media(max-width:900px){.grid{gap:21px}.pitch h2{font-size:28px;max-width:70%}}
+@media(max-width:600px){header,main,footer{padding-left:21px;padding-right:21px}header{padding-top:34px}header:before{font-size:16px;margin-bottom:25px}h1{font-size:37px;line-height:1.4;margin-top:17px}header>p{font-size:13px}h2{font-size:27px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:13px}.stats>div{min-width:0;padding:14px 15px}.stats strong{font-size:30px}.stats span{font-size:11px}.notice{font-size:11px;line-height:1.9;padding:15px}.toolbar{gap:10px;display:grid;grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1;width:100%}.toolbar select{width:100%;font-size:11px;padding:12px 8px}.grid{gap:25px}.photo{height:210px}.content{padding:20px}.pitch{padding:25px 20px}.pitch h2{font-size:28px;max-width:100%;margin-top:21px;line-height:1.6}.pitch:after{position:static;display:inline-block;font-size:12px;margin-top:9px}.pitch ol{font-size:12px}.pitch p{font-size:11px}.credit{font-size:9px}.card h2{font-size:33px}}
+@media(prefers-reduced-motion:reduce){button{transition:none}}

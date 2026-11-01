@@ -1,0 +1,312 @@
+[
+  {
+    "city": "beijing",
+    "ok": true,
+    "photos": 5,
+    "places": 24,
+    "articles": 47,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "tianjin",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "shijiazhuang",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "taiyuan",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "hohhot",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "shenyang",
+    "ok": true,
+    "photos": 1,
+    "places": 4,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "changchun",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "harbin",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "shanghai",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "nanjing",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "hangzhou",
+    "ok": true,
+    "photos": 1,
+    "places": 1,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "hefei",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "fuzhou",
+    "ok": true,
+    "photos": 1,
+    "places": 1,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "nanchang",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 13,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "jinan",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "zhengzhou",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "wuhan",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "changsha",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "guangzhou",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "nanning",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "haikou",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "chongqing",
+    "ok": true,
+    "photos": 1,
+    "places": 2,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "chengdu",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "guiyang",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "kunming",
+    "ok": true,
+    "photos": 1,
+    "places": 1,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "lhasa",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "xian",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "lanzhou",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "xining",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "yinchuan",
+    "ok": true,
+    "photos": 1,
+    "places": 3,
+    "articles": 12,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  },
+  {
+    "city": "urumqi",
+    "ok": true,
+    "photos": 1,
+    "places": 1,
+    "articles": 11,
+    "sourceReferences": true,
+    "photoFiles": true,
+    "coordinateProvenance": true
+  }
+]

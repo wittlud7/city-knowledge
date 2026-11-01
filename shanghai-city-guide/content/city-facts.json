@@ -1,0 +1,33 @@
+{
+  "city": "shanghai",
+  "dataYear": 2025,
+  "sourceId": "doc-local-shanghai",
+  "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+  "sections": [
+    {
+      "category": "career",
+      "text": "2025年城镇新增就业64.1万人，建成社区就业服务站点506个。"
+    },
+    {
+      "category": "education",
+      "text": "2025学年普通高校69所、普通小学654所。"
+    },
+    {
+      "category": "culture",
+      "text": "年末市、区公共图书馆20个，备案博物馆174个。"
+    },
+    {
+      "category": "health",
+      "text": "年末卫生机构6566所；社区门诊占本市常住居民门诊量42.0%。"
+    },
+    {
+      "category": "transport",
+      "text": "年末轨道交通运营里程962公里，口径含金山铁路和市域机场线。"
+    },
+    {
+      "category": "housing",
+      "text": "2025年建设筹措保障性租赁住房7.4万套（间）；不代表当前空置或可申请数量。"
+    }
+  ],
+  "note": "仅为年度统计背景，口径与正文一致，不表示实时状态或个人资格"
+}

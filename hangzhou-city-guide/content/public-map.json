@@ -1,0 +1,74 @@
+{
+  "city": "hangzhou",
+  "checkedAt": "2026-10-31",
+  "publisher": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "policyUrl": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "固定命名机构的一次性离线查询；不是运行时通用搜索；参考坐标不代表入口或当前开放",
+  "places": [
+    {
+      "id": "map-hangzhou-0",
+      "name": "浙江省博物馆（之江馆）",
+      "district": "全市",
+      "category": "culture",
+      "lng": 120.0968744,
+      "lat": 30.1620244,
+      "summary": "馆址参考：浙江省之江文化中心；以馆方公布的实际入口为准。中国博物馆协会介绍，浙江省博物馆之江馆在2023年8月29日对公众开放，位于之江文化中心，提供历史文化陈列与公共教育空间；介绍同时提及孤山馆区等其他组成部分。本库选取明确标记“之江馆”的公共地图记录，不把孤山与之江的位置混作一个入口。2023年的启幕信息不等于当前展览、开放或预约规则已核验。",
+      "tags": [
+        "博物馆",
+        "公共文化",
+        "室内",
+        "阅读与文化"
+      ],
+      "sourceId": "campus-hangzhou",
+      "sourceIds": [
+        "campus-hangzhou",
+        "map-hangzhou-0"
+      ],
+      "indoor": true,
+      "duration": 90,
+      "coordinateStatus": "approximate",
+      "coordinateSource": {
+        "publisher": "© OpenStreetMap contributors",
+        "url": "https://www.openstreetmap.org/way/1393054074",
+        "license": "ODbL 1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "checkedAt": "2026-10-31",
+        "osmId": "way/1393054074",
+        "query": "杭州 浙江省博物馆"
+      },
+      "coordinateNote": "馆区已根据公开资料区分，坐标仍为OpenStreetMap参考位置；实际入口、当期开馆和服务规则另行核实。",
+      "opening": "请通过机构当前公告核实开放、预约与馆区",
+      "price": null,
+      "accessibility": "无障碍入口、设施可用性与协助方式尚待核验",
+      "status": "published",
+      "verifiedAt": "2026-10-31",
+      "verificationScope": "核对文献中的馆区与馆址，并匹配公共地图参考点；不表示当前开放或资格已核验"
+    }
+  ],
+  "unmatched": [
+    "杭州图书馆",
+    "浙江自然博物院杭州馆"
+  ],
+  "campusVerification": {
+    "source": {
+      "id": "campus-hangzhou",
+      "title": "浙江省博物馆：之江馆与其他馆区如何区分",
+      "publisher": "中国博物馆协会",
+      "url": "https://www.chinamuseum.org.cn/cma/detail.html?contentId=13081&id=13",
+      "type": "institution",
+      "status": "reviewed",
+      "checkedAt": "2026-10-31",
+      "refreshDays": 30,
+      "documentRead": true,
+      "publishedAt": "2023-09-01",
+      "scope": "2023年新馆介绍；本条不提供当前临展、开放或预约承诺",
+      "scopeLevel": "local",
+      "cityId": "hangzhou",
+      "readMethod": "已打开并读取馆区说明，仅采用原文支持的事实，未以历史资料承诺当前开放"
+    },
+    "selectedPlace": "map-hangzhou-0",
+    "address": "浙江省之江文化中心；以馆方公布的实际入口为准"
+  }
+}

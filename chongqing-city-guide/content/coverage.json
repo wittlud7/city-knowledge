@@ -1,0 +1,177 @@
+{
+  "id": "chongqing",
+  "name": "重庆",
+  "province": "重庆",
+  "english": "Chongqing",
+  "folder": "chongqing-city-guide",
+  "port": 8821,
+  "lat": 29.563,
+  "lng": 106.5516,
+  "portal": "https://www.cq.gov.cn/",
+  "brand": "城知",
+  "version": "0.3.0",
+  "scope": "中国大陆31个省级行政中心首版；资料覆盖见本城覆盖清单",
+  "stage": "各城可运行首版，持续补充",
+  "localDocuments": 1,
+  "nationalDocuments": 6,
+  "syntheses": 3,
+  "photos": 1,
+  "photo": {
+    "id": "cbd",
+    "file": "SkylineOfChongqing.jpg",
+    "local": "chongqing.jpg",
+    "caption": "从南山远眺重庆（历史影像）",
+    "author": "Oliver Ren",
+    "date": "2010-07-25",
+    "width": 960,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:SkylineOfChongqing.jpg"
+  },
+  "places": 2,
+  "locatedPlaces": 1,
+  "publicMapRecords": 1,
+  "statisticalFacts": 0,
+  "districtProfiles": 0,
+  "sources": 10,
+  "sourceReadGaps": [],
+  "domains": [
+    {
+      "id": "overview",
+      "name": "城市概览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "history",
+      "name": "历史文化",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "transport",
+      "name": "交通出行",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "culture",
+      "name": "公共文化",
+      "localArticles": 1,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有本地正文，待扩充"
+    },
+    {
+      "id": "park",
+      "name": "公园运动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "travel",
+      "name": "景区游览",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "event",
+      "name": "展览活动",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "food",
+      "name": "饮食物产",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "housing",
+      "name": "居住社区",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "career",
+      "name": "就业人才",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "education",
+      "name": "教育家庭",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 1,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "health",
+      "name": "医疗服务",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "service",
+      "name": "日常办事",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 1,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "industry",
+      "name": "产业园区",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    },
+    {
+      "id": "accessibility",
+      "name": "无障碍服务",
+      "localArticles": 0,
+      "nationalArticles": 1,
+      "syntheses": 0,
+      "state": "已有全国资料，本市细则待补"
+    },
+    {
+      "id": "international",
+      "name": "国际服务",
+      "localArticles": 0,
+      "nationalArticles": 0,
+      "syntheses": 0,
+      "state": "本地资料待核验"
+    }
+  ],
+  "build": {
+    "city": "chongqing",
+    "ok": true,
+    "seconds": 11,
+    "checkedAt": "2026-11-02T06:47:45+0800"
+  },
+  "nativePublished": false,
+  "modelConnected": false,
+  "updatedAt": "2026-10-31"
+}
