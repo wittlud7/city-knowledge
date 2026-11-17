@@ -1,0 +1,47 @@
+<view class="field-page walk-page">
+  <view class="field-kicker">景德镇 · 来这里看看</view>
+  <view class="field-title">立体游览</view>
+  <view class="field-muted">点选地点，查看参观或到达前要核对的资料。</view>
+
+  <view class="walk-stage">
+    <view class="walk-art {{angle?'walk-alt':''}}" aria-hidden="true">
+      <view class="walk-board">
+        <view class="walk-road"></view>
+        <view class="walk-plaza"></view>
+        <view wx:for="{{stops}}" wx:key="id" class="walk-model walk-model--{{item.id}} {{selected.id===item.id?'walk-model-active':''}}">
+          <view class="walk-volume">
+            <view class="walk-face walk-roof"></view>
+            <view class="walk-face walk-front"></view>
+            <view class="walk-face walk-side"></view>
+            <view class="walk-face walk-back"></view>
+            <view class="walk-face walk-left"></view>
+          </view>
+        </view>
+        <view class="walk-grove walk-grove-left"></view>
+        <view class="walk-grove walk-grove-right"></view>
+      </view>
+    </view>
+    <button class="walk-turn" bindtap="turn" aria-pressed="{{angle}}">换个角度</button>
+    <button wx:for="{{stops}}" wx:key="id" class="walk-marker walk-marker--{{item.id}} {{angle?'walk-marker-alt':''}} {{selected.id===item.id?'walk-current':''}}" data-id="{{item.id}}" bindtap="select" aria-pressed="{{selected.id===item.id}}">{{item.label}}</button>
+  </view>
+  <view class="field-muted walk-caption">场景为示意布局，实际位置和路线请查看地图及当地公告。</view>
+
+  <view class="walk-detail">
+    <view class="field-heading">{{selected.name}}</view>
+    <view class="field-body">{{selected.intro}}</view>
+    <image wx:if="{{selected.photo}}" class="walk-photo" src="{{selected.photo}}" mode="aspectFill" aria-label="{{selected.name}}实景照片"></image>
+    <button wx:if="{{selected.photo}}" class="field-link walk-credit" bindtap="photoSource">{{selected.credit}} · 复制照片出处</button>
+    <view class="field-actions">
+      <button class="field-primary" bindtap="article">看资料与出处 →</button>
+      <button wx:if="{{selectedInList}}" bindtap="toggle">从想去清单移除</button>
+      <button wx:else bindtap="toggle">加入想去清单</button>
+    </view>
+  </view>
+  <view class="walk-list">
+    <view class="field-heading">这次想去 · {{shortlist.length}} 处</view>
+    <view wx:if="{{!shortlist.length}}" class="field-muted">选好地点后，可以加到这里做比较。</view>
+    <view wx:for="{{shortlist}}" wx:key="id">
+      <button class="field-link" data-id="{{item.id}}" bindtap="select">{{item.label}} →</button>
+    </view>
+  </view>
+</view>

@@ -11,7 +11,8 @@
     "pages/sources/sources",
     "pages/detail/detail",
     "pages/admin/admin",
-    "pages/community/community"
+    "pages/community/community",
+    "pages/walk/walk"
   ],
   "window": {
     "navigationBarTitleText": "城知",

@@ -20,7 +20,7 @@
   </view>
   <view class="city-section">
     <view class="city-section-head"><view class="field-heading">来这里看看</view></view>
-    <view class="city-visit-links"><button class="field-button" data-category="culture" bindtap="theme">公共文化 →</button><button class="field-button" data-category="travel" bindtap="theme">游览资料 →</button></view>
+    <view class="city-visit-links"><button class="field-button field-primary" data-page="walk" bindtap="go">立体游览 →</button><button class="field-button" data-category="culture" bindtap="theme">公共文化 →</button><button class="field-button" data-category="travel" bindtap="theme">游览资料 →</button></view>
     <image wx:if="{{hero}}" class="city-photo" src="{{hero.miniUrl}}" mode="aspectFill"></image>
     <button wx:if="{{hero}}" class="field-link field-muted" bindtap="photoSource">{{hero.caption}} · {{hero.date}} · © {{hero.author}} · {{hero.license}} ↗</button>
   </view>

@@ -1,3 +1,4 @@
 @import "./base.wxss";
 @import "./pocket.wxss";
 @import "./field.wxss";
+@import "./walk.wxss";
