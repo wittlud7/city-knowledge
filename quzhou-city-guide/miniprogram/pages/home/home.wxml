@@ -1,0 +1,33 @@
+<view class="field-page city-home">
+  <view class="city-mast"><view class="field-kicker">城知 / {{city}}</view><button class="field-link" data-page="sources" bindtap="go">资料来源 ↗</button></view>
+  <view class="city-cover">
+    <view class="city-cover-copy"><view class="city-title">{{city}}<view>城市手册</view></view><view class="city-deck">办事、出门，<view>还有本地人愿意分享的经验。</view></view></view>
+    <image class="city-drawing" src="/assets/ui/city-sketch.svg" mode="aspectFit" aria-hidden="true"></image>
+  </view>
+  <view class="city-search">
+    <input aria-label="你的城市问题" placeholder="搜办事、生活和出行问题" value="{{q}}" bindinput="input" bindconfirm="ask" maxlength="1500" confirm-type="go"/>
+    <button class="field-primary" bindtap="ask">查资料 →</button>
+  </view>
+  <view class="city-section">
+    <view class="city-section-head"><view class="field-heading">在这里生活</view><button class="field-link" data-page="knowledge" bindtap="go">全部资料 →</button></view>
+    <view class="city-domain-grid">
+      <button wx:for="{{domains}}" wx:key="id" data-category="{{item.id}}" bindtap="theme"><image src="{{item.icon}}" aria-hidden="true"></image><text>{{item.title}}</text></button>
+    </view>
+  </view>
+  <view class="city-section">
+    <view class="city-section-head"><view class="field-heading">同城交流</view><button class="field-link" data-page="community" bindtap="go">进入社区 →</button></view>
+    <view class="field-muted">问本地人一个问题，或者写下你在这里的经验。</view>
+  </view>
+  <view class="city-section">
+    <view class="city-section-head"><view class="field-heading">来这里看看</view></view>
+    <view class="city-visit-links"><button class="field-button" data-category="culture" bindtap="theme">公共文化 →</button><button class="field-button" data-category="travel" bindtap="theme">游览资料 →</button></view>
+    <image wx:if="{{hero}}" class="city-photo" src="{{hero.miniUrl}}" mode="aspectFill"></image>
+    <button wx:if="{{hero}}" class="field-link field-muted" bindtap="photoSource">{{hero.caption}} · {{hero.date}} · © {{hero.author}} · {{hero.license}} ↗</button>
+  </view>
+  <view class="city-section" wx:if="{{guides.length}}">
+    <view class="city-section-head"><view class="field-heading">初来乍到</view></view>
+    <button wx:for="{{guides}}" wx:key="articleId" class="city-guide field-link" data-id="{{item.articleId}}" bindtap="article"><view>{{item.displayTitle}}</view><view class="field-muted">{{item.scopeLabel}}</view></button>
+  </view>
+  <view class="field-error" wx:if="{{error}}">{{error}} <button class="field-link" bindtap="load">重试</button></view>
+  <button wx:if="{{boot}}" class="field-link city-coverage" data-page="sources" bindtap="go">{{boot.research.localDocuments}} 篇本地正文 · {{boot.research.nationalDocuments}} 篇全国资料 ↗</button>
+</view>

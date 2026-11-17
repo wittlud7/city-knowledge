@@ -1,0 +1,14 @@
+{
+  "id": "quzhou",
+  "name": "衢州",
+  "province": "浙江",
+  "english": "Quzhou",
+  "folder": "quzhou-city-guide",
+  "port": 8833,
+  "lat": 28.935,
+  "lng": 118.874,
+  "portal": "https://www.qz.gov.cn/",
+  "brand": "城知",
+  "version": "0.4.0",
+  "scope": "中小城市首批资料"
+}

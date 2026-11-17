@@ -74,6 +74,7 @@ export const categories=[
     "name": "无障碍服务",
     "icon": "Accessibility"
   },
+  {"id":"senior","name":"养老与照护","icon":"HeartPulse"},
   {
     "id": "international",
     "name": "国际服务",

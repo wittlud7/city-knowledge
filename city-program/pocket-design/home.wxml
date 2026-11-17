@@ -1,0 +1,13 @@
+<view class="pocket-home">
+  <view class="pocket-top"><view class="pocket-location"><image src="/assets/ui/map-pin.png"/><text>天津</text></view><button class="pocket-text-button" data-page="sources" bindtap="go">资料来源<image src="/assets/ui/chevron-right.png"/></button></view>
+  <view class="pocket-intro"><view class="pocket-heading">在天津，<view>把生活慢慢安顿好。</view></view><view class="pocket-subtitle">找生活资料，也可以直接问。</view></view>
+  <view class="pocket-question"><view class="pocket-question-title">想了解什么？</view><view class="pocket-input"><image src="/assets/ui/search.png"/><input id="home-question" aria-label="你的生活问题" placeholder="租房、医保、孩子上学…" value="{{q}}" bindinput="input" bindconfirm="ask" maxlength="1500" confirm-type="go"/></view><button class="pocket-primary" bindtap="ask">问问天津</button><view class="pocket-question-note">回答附出处，不清楚的会说明。</view></view>
+  <view class="pocket-domains"><button wx:for="{{domains}}" wx:key="id" class="pocket-domain" data-category="{{item.id}}" bindtap="theme"><view class="pocket-domain-icon"><image src="{{item.icon}}"/></view><view>{{item.title}}</view></button></view>
+  <view class="pocket-section-top"><view class="pocket-section-heading">刚来，先看这些</view><button class="pocket-text-button" data-page="knowledge" bindtap="go">全部资料<image src="/assets/ui/chevron-right.png"/></button></view>
+  <view wx:if="{{loading}}" class="pocket-state">正在整理生活资料…</view>
+  <view wx:if="{{error}}" class="pocket-error"><view>{{error}}</view><button class="pocket-text-button" bindtap="load">重新加载</button></view>
+  <view class="pocket-guides"><button wx:for="{{guides}}" wx:key="articleId" class="pocket-guide" data-id="{{item.articleId}}" bindtap="article"><view class="pocket-guide-copy"><view class="pocket-guide-title">{{item.displayTitle}}</view><view class="pocket-guide-meta">{{item.scopeLabel}}</view></view><image src="/assets/ui/chevron-right.png"/></button></view>
+  <button wx:if="{{boot}}" class="pocket-coverage" data-page="sources" bindtap="go">{{boot.research.localDocuments}} 篇本地正文 · {{boot.research.nationalDocuments}} 篇全国资料</button>
+  <view class="pocket-photo-section" wx:if="{{hero}}"><view class="pocket-section-top"><view class="pocket-section-heading">也看看，这座城市</view><button class="pocket-text-button" data-page="explore" bindtap="go">城市地图<image src="/assets/ui/chevron-right.png"/></button></view><image class="pocket-city-photo" src="{{hero.miniUrl}}" mode="aspectFill"/><view class="pocket-photo-meta">{{hero.caption}} · {{hero.date}}<view>© {{hero.author}} · {{hero.license}}</view></view><button class="pocket-text-button" bindtap="photoSource">照片出处与使用许可</button></view>
+  <view class="pocket-bottom-note">先了解，再决定。<view>办理条件和实时信息，请以对应官方渠道为准。</view></view>
+</view>

@@ -14,6 +14,11 @@ import{city}from'./city.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 if(existsSync(resolve(root,'.env')))process.loadEnvFile(resolve(root,'.env'));
 const store=createStore(process.env.DB_PATH||resolve(root,'data/'+city.id+'.sqlite'));const {db}=store;
+const seniorSource={id:'national-senior',title:'推进基本养老服务体系建设的意见',publisher:'国家卫生健康委员会网站',url:'https://www.nhc.gov.cn/bgt/gwywj2/202305/8f9157018d834723adcbdb74a65c7993.shtml',type:'portal',status:'reviewed',documentRead:true,scopeLevel:'national',checkedAt:'2026-11-17',refreshDays:30};
+if(city.id==='tianjin'&&!store.get('sources',seniorSource.id)){
+ store.put('sources',seniorSource);
+ store.put('articles',{id:'read-national-senior',title:'基本养老服务：先查所在地清单',category:'senior',status:'published',kind:'document',scopeLevel:'national',district:'全市',documentRead:true,verifiedAt:'2026-11-17',sourceId:seniorSource.id,body:'国家意见要求各省发布基本养老服务清单。可按所在区县查照护、关爱等项目的对象、受理渠道及条件。天津具体办理细则仍待核验。'});
+}
 const app=express();app.disable('x-powered-by');app.use(express.json({limit:'512kb'}));
 const digest=v=>createHash('sha256').update(v).digest('hex');
 const now=()=>new Date().toISOString();
@@ -135,6 +140,10 @@ async function refreshSource(id,actor,collect=false){
 app.post('/api/admin/sources/:id/check',admin,async(req,res)=>{try{res.json(await refreshSource(req.params.id,req.session.user_id));}catch(e){const source=store.get('sources',req.params.id);if(source)store.put('sources',{...source,lastFetchStatus:'failed',lastFetchError:e.message,lastFetchedAt:now()});res.status(422).json({error:e.message});}});
 app.post('/api/admin/sources/:id/collect',admin,async(req,res)=>{try{res.json(await refreshSource(req.params.id,req.session.user_id,true));}catch(e){res.status(422).json({error:e.message});}});
 if(process.env.ENABLE_SOURCE_MONITOR==='true')setInterval(async()=>{for(const s of publicSources()){if(!s.lastFetchedAt||Date.now()-Date.parse(s.lastFetchedAt)>s.refreshDays*86400000){try{await refreshSource(s.id,'scheduler');}catch{}}}},6*3600000).unref();
+import{mountCommunity}from'./community.mjs';
+mountCommunity(app,db,auth,admin);
+import{mountMiniPreview}from'./mini-preview.mjs';
+mountMiniPreview(app,root);
 app.use('/api',(req,res)=>res.status(404).json({error:'接口不存在'}));
 app.use('/media',express.static(resolve(root,'public/media'),{dotfiles:'deny',maxAge:'7d'}));app.use(express.static(resolve(root,'dist'),{dotfiles:'deny'}));app.get('/{*path}',(req,res)=>existsSync(resolve(root,'dist/index.html'))?res.sendFile(resolve(root,'dist/index.html')):res.status(200).send('请运行 npm run dev，或先 npm run build 后访问。'));
 app.use((error,req,res,next)=>{if(error instanceof ZodError)return res.status(400).json({error:error.issues.map(i=>i.message).join('；')});if(error instanceof SyntaxError)return res.status(400).json({error:'请求 JSON 格式无效'});if(error.status===413)return res.status(413).json({error:'请求内容过大'});console.error('Request failed:',error.message);res.status(400).json({error:'操作未完成，请检查字段、来源及网络后重试'});});

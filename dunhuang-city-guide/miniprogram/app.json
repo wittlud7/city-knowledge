@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/knowledge/knowledge",
+    "pages/explore/explore",
+    "pages/ask/ask",
+    "pages/plan/plan",
+    "pages/life/life",
+    "pages/events/events",
+    "pages/me/me",
+    "pages/sources/sources",
+    "pages/detail/detail",
+    "pages/admin/admin",
+    "pages/community/community"
+  ],
+  "window": {
+    "navigationBarTitleText": "城知",
+    "navigationBarBackgroundColor": "#f7f4ed",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f4ed"
+  },
+  "tabBar": {
+    "color": "#526157",
+    "selectedColor": "#254a38",
+    "backgroundColor": "#f7f4ed",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/ui/tab-home.png",
+        "selectedIconPath": "assets/ui/tab-home-selected.png"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "资料",
+        "iconPath": "assets/ui/tab-knowledge.png",
+        "selectedIconPath": "assets/ui/tab-knowledge-selected.png"
+      },
+      {
+        "pagePath": "pages/ask/ask",
+        "text": "问答",
+        "iconPath": "assets/ui/tab-ask.png",
+        "selectedIconPath": "assets/ui/tab-ask-selected.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "同城",
+        "iconPath": "assets/ui/message-circle.png",
+        "selectedIconPath": "assets/ui/message-circle.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "assets/ui/tab-me.png",
+        "selectedIconPath": "assets/ui/tab-me-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

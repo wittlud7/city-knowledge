@@ -1,0 +1,14 @@
+{
+  "id": "dunhuang",
+  "name": "敦煌",
+  "province": "甘肃",
+  "english": "Dunhuang",
+  "folder": "dunhuang-city-guide",
+  "port": 8834,
+  "lat": 40.142,
+  "lng": 94.662,
+  "portal": "https://www.dunhuang.gov.cn/",
+  "brand": "城知",
+  "version": "0.4.0",
+  "scope": "中小城市首批资料"
+}

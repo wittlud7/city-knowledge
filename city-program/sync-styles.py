@@ -4,5 +4,7 @@ import shutil,json
 program=Path(__file__).resolve().parent;root=program.parent
 for c in json.loads((program/'cities.json').read_text(encoding='utf-8')):
  if c['id']=='beijing':continue
- for f in ['src/styles.css','src/city-content.css','src/naive.css','src/handbook.css','miniprogram/app.wxss','miniprogram/base.wxss','miniprogram/naive.wxss','miniprogram/handbook.wxss']:shutil.copyfile(root/'beijing-city-guide'/f,root/c['folder']/f)
+ for f in ['src/styles.css','src/city-content.css','src/naive.css','src/handbook.css','miniprogram/app.wxss','miniprogram/base.wxss','miniprogram/naive.wxss','miniprogram/handbook.wxss']:
+  if c['id']=='tianjin' and f.startswith('miniprogram/') and (root/c['folder']/'miniprogram/pocket.wxss').exists():continue
+  shutil.copyfile(root/'beijing-city-guide'/f,root/c['folder']/f)
 print('CSS synced. Rebuild each city before previewing.')

@@ -3,8 +3,9 @@ from pathlib import Path
 import json,sys,zipfile,hashlib
 sys.stdout.reconfigure(encoding='utf-8');program=Path(__file__).resolve().parent;root=program.parent
 cities=json.loads((program/'cities.json').read_text(encoding='utf-8'));manifest=[]
-include_dirs=['server','src','miniprogram','content','public','scripts','tests','docs']
-include_files=['package.json','package-lock.json','project.config.json','index.html','vite.config.mjs','README.md','.env.example','.gitignore','Dockerfile','.dockerignore']
+cities.extend(json.loads((root/(cid+'-city-guide')/'content/city.json').read_text(encoding='utf-8')) for cid in ['jingdezhen','quzhou','dunhuang'])
+include_dirs=['server','src','miniprogram','content','public','scripts','tests','docs','preview']
+include_files=['package.json','package-lock.json','project.config.json','index.html','vite.config.mjs','README.md','design-qa.md','.env.example','.gitignore','Dockerfile','.dockerignore']
 for c in cities:
  folder=root/c['folder'];out=folder/'output';out.mkdir(exist_ok=True);dest=out/(c['id']+'-source.zip');paths=[]
  for dirname in include_dirs:paths.extend(p for p in (folder/dirname).rglob('*') if p.is_file())
@@ -22,7 +23,7 @@ for c in cities:
  item=dict(city=c['id'],name=c['name'],file=c['folder']+'/output/'+dest.name,bytes=dest.stat().st_size,sha256=hashlib.sha256(dest.read_bytes()).hexdigest());manifest.append(item);print(c['id'],item['bytes'])
 (program/'packages.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 bundle=program/'output';bundle.mkdir(exist_ok=True)
-with zipfile.ZipFile(bundle/'city-program-31-delivery.zip','w',zipfile.ZIP_DEFLATED) as z:
+with zipfile.ZipFile(bundle/'city-program-34-delivery.zip','w',zipfile.ZIP_DEFLATED) as z:
  for c in cities:
   archive=root/c['folder']/'output'/(c['id']+'-source.zip')
   with zipfile.ZipFile(archive) as source:
@@ -30,4 +31,6 @@ with zipfile.ZipFile(bundle/'city-program-31-delivery.zip','w',zipfile.ZIP_DEFLA
   z.write(archive,c['folder']+'/output/'+archive.name)
  for p in program.iterdir():
   if p.is_file() and p.name!='github-repository.py' and (p.suffix in ['.md','.json','.html','.css','.mjs','.py','.cmd'] or p.name in ['title.woff2','FONT_LICENSE.txt']):z.write(p,'city-program/'+p.name)
-print('PACKAGE_COUNT',len(manifest));print(bundle/'city-program-31-delivery.zip')
+ for p in (program/'pocket-design').glob('*'):
+  if p.is_file() and p.suffix in ['.js','.wxml','.wxss']:z.write(p,'city-program/pocket-design/'+p.name)
+print('PACKAGE_COUNT',len(manifest));print(bundle/'city-program-34-delivery.zip')

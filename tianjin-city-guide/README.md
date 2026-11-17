@@ -1,5 +1,7 @@
 # 城知 · 天津城市知识库
 
+原生小程序首页新版：运行本城服务后打开 <http://127.0.0.1:8801/mini/>。这个页面直接读取本项目WXML、WXSS及页面逻辑，提问、分类、资料详情连接现有接口。微信仍需开发者工具编译和真机验证。设计、字体、素材与边界见 [小程序首页设计](docs/小程序首页设计.md)，视觉核对见 [design-qa.md](design-qa.md)。
+
 独立项目，端口 8801，数据写入本文件夹 `data/tianjin.sqlite`，不读取其他城市数据库。
 
 运行：Node.js >=22.13，`npm ci`、`npm run build`、`npm start`，打开 http://127.0.0.1:8801/ 。Windows 可双击 Start-tianjin.cmd。
@@ -19,3 +21,7 @@
 视觉采用“稚拙城市手册”：奶油纸底、蓝墨、砖红印章、彩色便签和实景照片卡。网页样式见 `src/naive.css`，微信样式见 `miniprogram/naive.wxss`；均为本项目独立文件，不从其他城市加载。
 
 第二版升级为“手绘城市生活观察簿”：网页新增 `src/handbook.css` 和原创矢量组件 `src/handbook-art.jsx`，在原有主题之后加载；标题字体以OFL字形子集保存在 `public/fonts/`。微信新增 `miniprogram/handbook.wxss`，沿用系统标题字体。真实照片、出处和资料边界保留。
+
+## 城市手册与同城交流
+
+运行本城服务后打开 http://127.0.0.1:8801/mini/ 。在「同城」可发提问、分享经验、回复和举报。帖子与回复经人工审核后公开；使用 `ADMIN_PASSWORD` 或本地 `data/admin-password.txt` 登录「社区管理」查看待审核和举报队列。正式运营仍需微信登录、合规的 HTTPS 域名和审核人员。

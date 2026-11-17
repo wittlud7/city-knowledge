@@ -1,5 +1,23 @@
 import http from'node:http';import{readFileSync,existsSync,mkdirSync,openSync,closeSync}from'node:fs';import{resolve}from'node:path';import{fileURLToPath}from'node:url';import{spawn}from'node:child_process';
-const program=fileURLToPath(new URL('.',import.meta.url)),root=resolve(program,'..'),children=new Map(),launches=new Map();const cities=JSON.parse(readFileSync(resolve(program,'cities.json'),'utf8'));const byId=new Map(cities.map(c=>[c.id,c]));
+const program=fileURLToPath(new URL('.',import.meta.url)),root=resolve(program,'..'),children=new Map(),launches=new Map();const cities=JSON.parse(readFileSync(resolve(program,'cities.json'),'utf8'));const pilotIds=['jingdezhen','quzhou','dunhuang'];
+const readJson=file=>JSON.parse(readFileSync(file,'utf8'));
+const pilots=pilotIds.map(id=>readJson(resolve(root,id+'-city-guide','content/city.json')));
+cities.push(...pilots);
+const byId=new Map(cities.map(c=>[c.id,c]));
+function pilotCoverage(city){
+ const dir=resolve(root,city.folder,'content');
+ const {documents,sources}=readJson(resolve(dir,'research.json'));
+ const photos=readJson(resolve(dir,'photos.json'));
+ const domains=Object.entries({housing:'住房',career:'就业',education:'教育',health:'医保',transport:'交通',service:'办事',senior:'养老',accessibility:'无障碍',culture:'公共文化',travel:'游览'}).map(([id,name])=>{
+  const covered=documents.filter(d=>d.documentRead&&(d.category===id||d.categories?.includes(id)));
+  return {name,state:covered.some(d=>d.scopeLevel==='local')?'有本地正文':covered.length?'有全国参考 · 本地待补':'待补资料'};
+ });
+ return {...city,pilot:true,photos:photos.length,photo:photos[0],localDocuments:documents.filter(d=>d.documentRead&&d.scopeLevel==='local').length,
+  nationalDocuments:documents.filter(d=>d.documentRead&&d.scopeLevel==='national').length,
+  places:0,districtProfiles:0,syntheses:0,domains,build:{ok:existsSync(resolve(root,city.folder,'dist/index.html'))},
+  sourceReadGaps:sources.filter(d=>!d.documentRead).map(d=>({note:d.title,url:d.url}))};
+}
+
 const send=(res,status,body,type='application/json; charset=utf-8')=>{res.writeHead(status,{'Content-Type':type,'X-Content-Type-Options':'nosniff','Cache-Control':'no-store'});res.end(typeof body==='string'||Buffer.isBuffer(body)?body:JSON.stringify(body));};
 async function health(city){try{const r=await fetch(`http://127.0.0.1:${city.port}/api/health`,{signal:AbortSignal.timeout(800)});const h=await r.json();return r.ok&&h.city?.id===city.id;}catch{return false;}}
 async function launch(city){if(await health(city))return;if(launches.has(city.id))return launches.get(city.id);const task=(async()=>{const folder=resolve(root,city.folder);if(!existsSync(resolve(folder,'node_modules/express'))||!existsSync(resolve(folder,'dist/index.html')))throw Error('请先在本城文件夹执行 npm ci 和 npm run build');mkdirSync(resolve(program,'logs'),{recursive:true});const fd=openSync(resolve(program,'logs',city.id+'-runtime.log'),'a');const child=spawn(process.execPath,['server/index.mjs'],{cwd:folder,env:{...process.env,PORT:String(city.port),HOST:'127.0.0.1'},windowsHide:true,stdio:['ignore',fd,fd]});closeSync(fd);children.set(city.id,child);let spawnError;child.on('error',e=>{spawnError=e;});child.on('exit',()=>children.delete(city.id));for(let i=0;i<60;i++){if(spawnError)throw spawnError;if(await health(city))return;if(child.exitCode!==null)throw Error('服务未启动，请查看本地运行日志');await new Promise(r=>setTimeout(r,200));}throw Error('服务启动超时或端口被其他程序占用');})();launches.set(city.id,task);try{return await task;}finally{launches.delete(city.id);}}
@@ -8,11 +26,11 @@ const server=http.createServer(async(req,res)=>{try{const u=new URL(req.url,'htt
  if(req.method==='GET'&&u.pathname==='/naive.css')return send(res,200,readFileSync(resolve(program,'naive.css')),'text/css; charset=utf-8');
  if(req.method==='GET'&&u.pathname==='/handbook.css')return send(res,200,readFileSync(resolve(program,'handbook.css')),'text/css; charset=utf-8');
  if(req.method==='GET'&&u.pathname==='/title.woff2')return send(res,200,readFileSync(resolve(program,'title.woff2')),'font/woff2');
- if(req.method==='GET'&&u.pathname==='/api/catalog'){const rows=JSON.parse(readFileSync(resolve(program,'coverage.json'),'utf8'));return send(res,200,rows);}
+ if(req.method==='GET'&&u.pathname==='/api/catalog'){const rows=JSON.parse(readFileSync(resolve(program,'coverage.json'),'utf8'));return send(res,200,[...rows,...pilots.map(pilotCoverage)]);}
  if(req.method==='GET'&&u.pathname==='/api/status')return send(res,200,Object.fromEntries(await Promise.all(cities.map(async c=>[c.id,await health(c)]))));
  const parts=u.pathname.split('/');const city=byId.get(parts[2]);
- if(req.method==='POST'&&parts[1]==='launch'&&city&&parts.length===3){if(req.headers.origin!=='http://127.0.0.1:8790'&&req.headers.origin!=='http://localhost:8790')return send(res,403,{error:'只接受本地目录的启动操作'});await launch(city);return send(res,200,{url:`http://127.0.0.1:${city.port}/`});}
- if(req.method==='GET'&&parts[1]==='photo'&&city&&parts.length===3){const p=JSON.parse(readFileSync(resolve(root,city.folder,'content/photos.json'),'utf8'))[0];return send(res,200,readFileSync(resolve(root,city.folder,'public/media',p.local)),p.local.endsWith('.png')?'image/png':'image/jpeg');}
+ if(req.method==='POST'&&parts[1]==='launch'&&city&&parts.length===3){if(req.headers.origin!=='http://127.0.0.1:8790'&&req.headers.origin!=='http://localhost:8790')return send(res,403,{error:'只接受本地目录的启动操作'});await launch(city);return send(res,200,{url:`http://127.0.0.1:${city.port}/${pilotIds.includes(city.id)||city.id==='tianjin'?'mini/':''}`});}
+ if(req.method==='GET'&&parts[1]==='photo'&&city&&parts.length===3){const p=JSON.parse(readFileSync(resolve(root,city.folder,'content/photos.json'),'utf8'))[0];if(!p)return send(res,404,{error:'本城照片尚未收录'});return send(res,200,readFileSync(resolve(root,city.folder,'public/media',p.local)),p.local.endsWith('.png')?'image/png':'image/jpeg');}
  if(req.method==='GET'&&parts[1]==='bundle'&&city&&parts.length===3){const file=resolve(root,city.folder,'output',city.id+'-source.zip');if(!existsSync(file))return send(res,404,{error:'本城源码包尚未生成'});res.setHeader('Content-Disposition',`attachment; filename="${city.id}-source.zip"`);return send(res,200,readFileSync(file),'application/zip');}
  return send(res,404,{error:'未找到'});
 }catch(e){send(res,500,{error:e.message});}});

@@ -1,0 +1,14 @@
+{
+  "id": "jingdezhen",
+  "name": "景德镇",
+  "province": "江西",
+  "english": "Jingdezhen",
+  "folder": "jingdezhen-city-guide",
+  "port": 8832,
+  "lat": 29.268,
+  "lng": 117.178,
+  "portal": "https://www.jdz.gov.cn/",
+  "brand": "城知",
+  "version": "0.4.0",
+  "scope": "中小城市首批资料"
+}

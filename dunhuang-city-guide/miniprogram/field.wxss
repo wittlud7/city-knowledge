@@ -1,0 +1,49 @@
+page { background:#f7f4ed; color:#26342e; font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif; }
+.field-page { box-sizing:border-box; max-width:920rpx; margin:0 auto; padding:32rpx 34rpx 56rpx; color:#26342e; font-size:29rpx; line-height:1.55; }
+.field-page button { margin:0; padding:0; line-height:1.4; text-align:left; color:inherit; background:transparent; border:0; border-radius:0; font:inherit; }
+.field-page button::after { border:0; }
+.field-page button[disabled] { opacity:.48; }
+.field-kicker { color:#426253; font-size:23rpx; font-weight:700; letter-spacing:1rpx; }
+.field-title,.city-title { font-weight:850; letter-spacing:-2rpx; line-height:1.12; }
+.field-title { font-size:66rpx; margin:12rpx 0; }
+.field-heading { font-size:38rpx; font-weight:750; line-height:1.3; }
+.field-muted { color:#526157; font-size:25rpx; }
+.field-error { margin:18rpx 0; padding:14rpx; background:#f1ddd2; color:#7c321e; }
+.field-body { margin:12rpx 0; white-space:pre-wrap; overflow-wrap:anywhere; }
+.field-empty { padding:44rpx 12rpx; color:#526157; }
+.field-row { padding:22rpx 0; border-bottom:1px solid #d7d9cb; overflow-wrap:anywhere; }
+.field-actions,.field-filters,.city-visit-links { display:flex; flex-wrap:wrap; align-items:center; gap:12rpx; margin:20rpx 0; }
+.field-actions button,.field-filters button,.field-page .field-button { padding:12rpx 16rpx; min-height:72rpx; border:1px solid #adbaad; border-radius:5rpx; font-size:25rpx; box-sizing:border-box; }
+.field-page .field-primary { background:#254a38; color:#fffdf3; border:1px solid #254a38; border-radius:5rpx; font-weight:700; }
+.field-page .field-selected { background:#dbe7d7; border-color:#557563; font-weight:700; }
+.field-page .field-link { color:#315b46; min-height:64rpx; display:inline-flex; align-items:center; gap:8rpx; }
+.field-form { display:flex; flex-direction:column; gap:18rpx; margin:22rpx 0; }
+.field-form input,.field-form textarea,.city-search input { display:block; box-sizing:border-box; width:100%; background:#fffdf7; border:1px solid #adbaad; border-radius:5rpx; padding:16rpx; font:inherit; }
+.field-form input { height:82rpx; }
+.field-form textarea { min-height:188rpx; }
+.field-staff { margin-top:34rpx !important; }
+.city-mast,.city-section-head { display:flex; justify-content:space-between; align-items:center; gap:12rpx; }
+.city-mast { border-bottom:1px solid #859789; padding-bottom:8rpx; }
+.city-mast button,.city-section-head button { font-size:24rpx; white-space:nowrap; }
+.city-cover { position:relative; display:flex; align-items:flex-end; min-height:290rpx; padding:42rpx 0 26rpx; box-sizing:border-box; }
+.city-cover-copy { position:relative; z-index:1; }
+.city-title { font-size:67rpx; }
+.city-deck { margin-top:18rpx; font-size:25rpx; color:#43564b; }
+.city-drawing { position:absolute; width:41%; height:230rpx; top:20rpx; right:0; }
+.city-search { display:flex; gap:6rpx; }
+.city-search input { min-width:0; flex:1; height:86rpx; font-size:26rpx; }
+.city-search button { flex:none; text-align:center; padding:0 18rpx; font-size:26rpx; }
+.city-section { margin-top:30rpx; border-top:1px solid #859789; padding-top:12rpx; }
+.city-domain-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:24rpx; }
+.city-domain-grid button { display:flex; gap:14rpx; align-items:center; min-height:84rpx; border-bottom:1px solid #d7d9cb; font-size:26rpx; }
+.city-domain-grid image { width:32rpx; height:32rpx; flex:none; }
+.city-photo { width:100%; height:265rpx; display:block; }
+.city-guide { display:block!important; width:100%; padding:12rpx 0!important; border-bottom:1px solid #d7d9cb!important; }
+.city-coverage { margin-top:24rpx!important; font-size:24rpx!important; }
+
+.page .chip,.page .tag,.page .tabs button,.page .search,.page .primary,.page .secondary,.page .panel,.page .card,.page .notice,.page .chat-card,.page .chat-question,.page textarea,.page .source { border-radius:5rpx; }
+.page .card,.page .panel,.page .chat-card { border-color:#d7d9cb; background:#fffdf7; }
+.page .primary { background:#254a38; color:#fffdf3; border:1px solid #254a38; }
+.page .meta,.page .muted,.page .notice { color:#526157; }
+.page .eyebrow { color:#426253; letter-spacing:1rpx; }
+.page .h1 { color:#26342e; font-weight:800; }

@@ -1,0 +1,59 @@
+<view class="field-page">
+  <view class="field-kicker">{{city}} · 城知</view>
+  <view class="field-title">同城交流</view>
+  <view class="field-muted">问问住在这里的人，也分享你的亲身经验。</view>
+  <view class="field-actions">
+    <button data-mode="feed" bindtap="mode">全部帖子</button>
+    <button data-mode="mine" bindtap="mode">我的投稿</button>
+    <button class="field-primary" data-mode="compose" bindtap="mode">写帖子 ＋</button>
+  </view>
+  <view wx:if="{{error}}" class="field-error">{{error}}</view>
+  <view wx:if="{{mode==='feed'||mode==='mine'||mode==='review'}}">
+    <view wx:if="{{mode==='feed'}}" class="field-filters">
+      <button class="{{filter===''?'field-selected':''}}" data-kind="" bindtap="filter">全部</button>
+      <button class="{{filter==='question'?'field-selected':''}}" data-kind="question" bindtap="filter">同城提问</button>
+      <button class="{{filter==='experience'?'field-selected':''}}" data-kind="experience" bindtap="filter">经验分享</button>
+    </view>
+    <view wx:if="{{loading}}" class="field-muted">正在加载…</view>
+    <button wx:if="{{error}}" class="field-button" bindtap="retry">重试</button>
+    <view wx:if="{{!loading&&!error&&!rows.length}}" class="field-empty">{{mode==='feed'?'还没有公开帖子。可以发起第一个话题。':mode==='mine'?'你的投稿和审核进度会显示在这里。':'暂无待处理内容。'}}</view>
+    <view wx:for="{{rows}}" wx:key="id" class="field-row">
+      <view class="field-kicker">{{item.label}} · {{item.date}} {{item.statusLabel}}</view>
+      <button wx:if="{{mode==='feed'||(mode==='mine'&&item.status==='published'&&!item.parent)}}" class="field-link" data-id="{{item.id}}" bindtap="detail">{{item.title}} →</button>
+      <view wx:else class="field-heading">{{item.title||item.label}}</view>
+      <view wx:if="{{mode!=='feed'}}" class="field-body">{{item.body}}</view>
+      <view wx:if="{{mode==='feed'}}" class="field-muted">{{item.replies}} 条回复</view>
+      <view wx:if="{{mode==='review'}}">
+        <view wx:if="{{item.reports}}" class="field-error">举报理由：{{item.reports}}</view>
+        <view class="field-actions">
+          <button data-id="{{item.id}}" data-status="published" bindtap="moderate" disabled="{{busy}}">公开 / 保留</button>
+          <button data-id="{{item.id}}" data-status="hidden" bindtap="moderate" disabled="{{busy}}">隐藏</button>
+        </view>
+      </view>
+    </view>
+    <button wx:if="{{more}}" class="field-button" disabled="{{loading}}" bindtap="more">加载更多</button>
+  </view>
+  <view wx:if="{{mode==='compose'}}" class="field-form">
+    <view class="field-heading">发布到同城</view>
+    <view class="field-filters">
+      <button class="{{kind==='question'?'field-selected':''}}" data-kind="question" bindtap="kind">同城提问</button>
+      <button class="{{kind==='experience'?'field-selected':''}}" data-kind="experience" bindtap="kind">经验分享</button>
+    </view>
+    <input aria-label="帖子标题" placeholder="写一个具体的标题" maxlength="64" value="{{title}}" data-field="title" bindinput="field"/>
+    <textarea aria-label="帖子正文" placeholder="说说你想问什么，或记录你的经历" maxlength="1200" value="{{body}}" data-field="body" bindinput="field"></textarea>
+    <view class="field-muted">请去掉电话号码、证件号等个人信息。审核通过后公开。</view>
+    <button class="field-primary field-button" disabled="{{busy}}" bindtap="submit">提交帖子</button>
+  </view>
+  <view wx:if="{{mode==='detail'}}">
+    <view class="field-row"><view class="field-kicker">{{post.label}} · {{post.date}} · 用户分享</view><view class="field-heading">{{post.title}}</view><view class="field-body">{{post.body}}</view><button class="field-button" data-id="{{post.id}}" bindtap="report">举报帖子</button></view>
+    <view wx:for="{{replies}}" wx:key="id" class="field-row"><view class="field-muted">用户回复 · {{item.date}}</view><view class="field-body">{{item.body}}</view><button class="field-button" data-id="{{item.id}}" bindtap="report">举报回复</button></view>
+    <button wx:if="{{replyMore}}" class="field-button" disabled="{{loading}}" bindtap="moreReplies">更多回复</button>
+    <view wx:if="{{reporting}}" class="field-form"><textarea aria-label="举报原因" placeholder="简述举报原因" maxlength="1200" value="{{reportText}}" data-field="reportText" bindinput="field"></textarea><button class="field-button" disabled="{{busy}}" bindtap="sendReport">提交举报</button></view>
+    <view class="field-form"><textarea aria-label="回复内容" placeholder="分享你的回答" maxlength="1200" value="{{body}}" data-field="body" bindinput="field"></textarea><button class="field-primary field-button" disabled="{{busy}}" bindtap="submit">提交回复</button></view>
+  </view>
+  <view wx:if="{{mode==='login'}}" class="field-form">
+    <input aria-label="管理员密码" placeholder="管理员密码" password="true" value="{{password}}" data-field="password" bindinput="field"/>
+    <button class="field-primary field-button" bindtap="login" disabled="{{busy}}">登录并查看审核队列</button>
+  </view>
+  <button wx:if="{{mode==='feed'}}" class="field-button field-staff" data-mode="login" bindtap="mode">社区管理</button>
+</view>

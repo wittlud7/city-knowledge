@@ -5,5 +5,5 @@ async function request(path,method,data,admin){await session();return raw(path,m
 function error(e){wx.showToast({title:e.message||'操作失败',icon:'none',duration:3000});}
 function source(s){if(!s)return;request('/outbound','POST',{sourceId:s.id}).catch(()=>{});wx.setClipboardData({data:s.url,success:()=>wx.showToast({title:'来源链接已复制',icon:'none'})});}
 function detail(id,type){wx.navigateTo({url:'/pages/detail/detail?id='+encodeURIComponent(id)+'&type='+(type||'place')});}
-function go(page){const p='/pages/'+page+'/'+page;if(['home','knowledge','ask','me'].includes(page))wx.switchTab({url:p});else wx.navigateTo({url:p});}
+function go(page){const p='/pages/'+page+'/'+page;if(['home','knowledge','ask','community','me'].includes(page))wx.switchTab({url:p});else wx.navigateTo({url:p});}
 module.exports={request,error,source,detail,go};
